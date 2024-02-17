@@ -1,0 +1,1171 @@
+[
+  {
+    "name": "¡A correr!",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Atletismo cuando huyes",
+    "att": "Ag",
+    "description": "Cuando tu vida peligra, eres capaz de impresionantes ráfagas de velocidad. Tu Atributo de Movimiento cuenta como 1 punto más cuando Huyes."
+  },
+  {
+    "name": "Afinidad Animal",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Carisma animal",
+    "att": "V",
+    "description": "Los animales salvajes se sienten cómodos en tu presencia, y a menudo siguen tu ejemplo. Todas las criaturas con el Rasgo Bestial no entrenadas para ser beligerantes se mostrarán automáticamente tranquilas en tu presencia a menos que tengan razón para no estarlo, como porque sientan dolor, sean atacadas, sean extremadamente agresivas de forma natural o tengan cerca a sus crías."
+  },
+  {
+    "name": "Afinidad con el Aethyr",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Canalización (cualquiera)",
+    "att": "Ini",
+    "description": "Tu experiencia, tu talento o tu entrenamiento te permiten manipular de forma más segura los Vientos de la Magia. No sufres una Disfunción mágica si sacas un doble en un Chequeo con éxito de Canalización."
+  },
+  {
+    "name": "Alentador",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Chequeos sociales para influenciar a un superior",
+    "att": "Em",
+    "description": "Sabes qué decir y cuándo hacerlo para causar el máximo impacto a tus superiores. Cuando utilizas con éxito una Habilidad social para influenciar a quienes tienen un nivel de Estatus superior al tuyo, puedes elegir entre utilizar los NE obtenidos con el dado y el número obtenido en el dado de unidades. Así, una tirada con éxito de 46 se podría utilizar para +6 NE."
+  },
+  {
+    "name": "Allanamiento de morada",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Cuerpo a cuerpo cuando fuerces o rompas objetos inanimados",
+    "att": "F",
+    "description": "Eres un experto en echar puertas abajo rápidamente y en entrar en sitios a la fuerza. Puedes sumar +1 Daño por cada nivel en este talento al determinar el daño contra objetos inanimados como ventanas, arcones, puertas y objetos similares."
+  },
+  {
+    "name": "Alma pura",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "",
+    "att": "V",
+    "description": "Tu alma es pura, y por lo tanto muy resistente a las depredaciones del Caos. Puedes anotarte tantos puntos de Corrupción adicionales como tu nivel de Alma pura antes de tener que Chequear para ver si te has corrompido."
+  },
+  {
+    "name": "Ambidiestro",
+    "max_val": "2",
+    "tests": "",
+    "att": "",
+    "description": "Puedes utilizar tu mano torpe mucho mejor que la mayoría de personas, o bien por entrenamiento o por talento innato. Sólo sufres un penalizador -10 a los Chequeos que se basan tan solo en tu mano secundaria, no -20. Si adquieres este Talento dos veces, no sufres penalizador alguno."
+  },
+  {
+    "name": "Amenazador",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Intimidar",
+    "att": "F",
+    "description": "Tienes una presencia imponente. Cuando utilizas la Habilidad Intimidar, obtienes un bonificador al NE igual a tus niveles de Amenazador."
+  },
+  {
+    "name": "Artesano (Oficio)",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Oficio (cualquiera)",
+    "att": "Destreza",
+    "description": "Tienes un auténtico talento creativo. Suma la Habilidad de Oficio asociada a cualquier Carrera en la que entras. Si dicha Habilidad de Oficio ya está en tu Carrera, en lugar de ello puedes comprarla a razón de 5 PX menos por Avance."
+  },
+  {
+    "name": "Artesano maestro (Oficio)",
+    "max_val": "Bonificador por Destreza",
+    "tests": "cualquier Chequeo Prolongado de Oficio",
+    "att": "Des",
+    "description": "Eres excepcionalmente hábil en tu Oficio. Reduces en tantos puntos como tu nivel de Artesano maestro el NE requerido de cualquier Chequeo Prolongado utilizando tu Habilidad de Oficio."
+  },
+  {
+    "name": "Artista",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Arte (cualquiera)",
+    "att": "Des",
+    "description": "Tienes un talento natural para el arte, y eres capaz de hacer bocetos precisos con solo el tiempo y los materiales adecuados. Esta capacidad tiene unos cuantos usos en el juego, que van desde crear pasquines de 'Se busca' a esbozar diarios precisos, además de beneficios puntuales a determinar por el DJ. Además, añade Arte (cualquiera) a cualquier Carrera en la que entras; si ya está en la misma, puedes adquirir la Habilidad a razón de 5 PX menos por Avance."
+  },
+  {
+    "name": "Asalto furioso",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Cuerpo a cuerpo al hacer ataques adicionales",
+    "att": "Ag",
+    "description": "Tus golpes se suceden con rapidez, lloviendo sobre tus oponentes con la furia de Ulric. Una vez por Asalto, si aciertas a un oponente en combate cerrado, puedes gastar de inmediato una Ventaja o tu Movimiento para hacer un ataque adicional (suponiendo que aún te quede por hacer tu Movimiento)."
+  },
+  {
+    "name": "Aterrador",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "",
+    "att": "F",
+    "description": "Cualquiera en sus cabales se lo piensa dos veces antes de acercarse a ti. Si quieres, tienes un Índice de Miedo de 1. Suma +1 a esta cifra cada vez adicional que adquieres este talento."
+  },
+  {
+    "name": "Atractivo",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Chequeos de Carisma para influenciar a quienes atraes.",
+    "att": "Em",
+    "description": "Chequeos: Chequeos de Carisma para influenciar a quienes atraes. Ya se trate de tu penetrante mirada, de tu recia estructura o quizá de la forma en que haces brillar tus perfectos dientes, sabes cómo aprovechar al máximo lo que los dioses te han concedido. Cuando utilizas con éxito el Carisma para influenciar a los que se ven atraídos hacia ti, puedes elegir entre usar los NE obtenidos o el número obtenido en tu dado de unidades. Así, una tirada con éxito de 38 se podría utilizar para +8 NE."
+  },
+  {
+    "name": "Ayunador",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "Chequeos de Aguante para resistir el hambre",
+    "att": "R",
+    "description": "Estás acostumbrado a sobrevivir con menos, y sabes cómo resistir los malos tiempos. Puedes subsistir con la mitad de comida necesaria sin ningún penalizador (aparte de tener mucha hambre), y sólo necesitas hacer un Chequeo de Inanición cada 3 días y no cada 2."
+  },
+  {
+    "name": "Barquero",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Navegar para embarcaciones fluviales",
+    "att": "Ag",
+    "description": "Eres un navegante fluvial con experiencia y estás muy versado en las embarcaciones fluviales. Puedes ignorar todos los negativos a tus Chequeos cuando estas a bordo de una gabarra, derivados de aguas revueltas, embarcaciones que se mueven, suelo inseguro y cosas parecidas. Además, cuentas como dos barqueros para el mínimo de tripulantes necesarios para pilotar una embarcación de río."
+  },
+  {
+    "name": "Bendición (Saber divino)",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Uno de los dioses vela por ti, y ello te permite potenciar las más sencillas plegarias. Ahora puedes desplegar las Bendiciones de tu dios, según se indica en el Capítulo 7: Religión y creencias. En circunstancias normales, sólo puedes adquirir el Talento Bendición (Saber divino) una vez."
+  },
+  {
+    "name": "Bien equipado",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "",
+    "att": "Ini",
+    "description": "Estás acostumbrado a anticiparte a las necesidades, tanto de los demás como de ti mismo. Durante tantas veces por sesión como tu nivel de Bien equipado, puedes sacar de tu mochila (o similar) el accesorio requerido para la situación actual en tanto en cuanto su Impedimenta sea 0, puedas haberlo comprado recientemente y no abuse demasiado de la credibilidad. Podría tratarse de cualquier cosa, desde una petaca de licor para fortificar a un camarada herido hasta una flauta dulce que necesita un animador de paso. Siempre que hagas esto, deberás restar de tu bolsillo el coste del objeto proporcionando, representando el dinero gastado previamente."
+  },
+  {
+    "name": "Boticario",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Oficio (boticario)",
+    "att": "I",
+    "description": "Tienes una gran habilidad en farmacia, y eres mucho más capaz que otros de elaborar píldoras, pomadas, ungüentos, óleos, cremas y muchas cosas más. Puedes invertir los dados de cualquier Chequeo fallido de Oficio (boticario) si esto te permite tener éxito en el mismo."
+  },
+  {
+    "name": "¡Brujo!",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "",
+    "att": "V",
+    "description": "Has aprendido magia mediante prueba y error. Añade Hablar idioma (magia) a cualquier Carrera en la que entras; si la Habilidad ya está en dicha Carrera, puedes comprarla a razón de 5 PX menos por Avance. Además, puedes gastar 1 punto de Resiliencia para lanzar de inmediato cualquier hechizo como si fuera uno de tus hechizos de Saber arcano; también memorizas instantáneamente el hechizo como uno de tus hechizos de Saber arcano al coste de 0 PX. Puedes hacerlo tantas veces como tu nivel en este Talento."
+  },
+  {
+    "name": "Buen nadador",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Nadar",
+    "att": "F",
+    "description": "Eres un nadador excepcionalmente bueno, y estás acostumbrado a contener el aliento un buen rato bajo el agua. Obtienes un bonificador igual a tu nivel en Buen nadador a tu Bonificador por Resistencia a efectos de contener el aliento."
+  },
+  {
+    "name": "Buenas espaldas",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Remar y Nadar",
+    "att": "F",
+    "description": "Tienes la espalda fuerte, y estás acostumbrado a trabajar duro. Puedes sumar tus niveles en Buenas espaldas a tu NE en cualquier Chequeo Enfrentado de Fuerza y puedes llevar tantos puntos de Impedimenta adicionales en forma de accesorios como tu nivel de Buenas espaldas."
+  },
+  {
+    "name": "Caer como los gatos",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Atletismo cuando caes",
+    "att": "Ag",
+    "description": "Eres ágil y equilibrado como un gato, y eres capaz de caer distancias mucho mayores que mucha otra gente sin sufrir daño. Siempre que caes, intentas un Chequeo de Atletismo. Si tienes éxito, reduces la distancia caída en una yarda, +1 yarda adicional por cada +1 NE obtenido, a efectos de calcular el daño."
+  },
+  {
+    "name": "Carga bersérker",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Cuerpo a cuerpo en un Asalto en el que Cargues",
+    "att": "F",
+    "description": "Te lanzas contra tus enemigos con un abandono imprudente, utilizando la fuerza de tu carga para añadir peso a tus golpes. Cuando Cargas, sumas +1 al Daño a todos los ataques Cuerpo a cuerpo por cada nivel que tienes en este talento."
+  },
+  {
+    "name": "Celo ferviente",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Carisma cuando hablas de tu causa",
+    "att": "Em",
+    "description": "Cuando hablas de tu causa, caso o religión, tus palabras se llenan de pasión y de un celo ferviente. Puedes doblar tu Empatía a efectos de determinar el número de gente influenciada por tu nivel de Orador cuando hablas de tu causa."
+  },
+  {
+    "name": "Cerebro",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Te has ganado un aire de respetabilidad a pesar de tus nefarias costumbres. Puedes ignorar la pérdida de Estatus debido al Talento Delincuente."
+  },
+  {
+    "name": "Cirugía",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Chequeos de Sanar fuera de asaltos de combate; es decir, cuando tienes tiempo para hacerlo de forma 'apropiada'.",
+    "att": "I",
+    "description": "Eres un cirujano, capaz de abrir y cerrar la carne para curar a otros. Puedes tratar cualquier Herida crítica en la que se indica que necesita Cirugía. También puedes usarla para resolver problemas internos mediante un Chequeo Prolongado Desafiante (+0) de Sanar con un NE objetivo determinado por el DJ (por lo general entre 5 y 10) dependiendo de la dificultad de la operación. Esto causa 1d10 heridas y 1 Estado de Sangrando por Chequeo, lo que significa que la cirugía tiene una buena probabilidad de matar al paciente si el cirujano no es cuidadoso. Después de la cirugía, el paciente debe conseguir un Chequeo Normal (+20) de Aguante o sufrir una Infección leve."
+  },
+  {
+    "name": "Clarividencia",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "cualquier Chequeo para detectar los Vientos de la Magia",
+    "att": "Ini",
+    "description": "Puedes percibir los cambiantes Vientos de la Magia que surgen de las Puertas del Caos que están en los polos del mundo. Ahora dispones de la Videncia."
+  },
+  {
+    "name": "Combate cercano",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Cuerpo a cuerpo cuando luchas en combate cercano o entras en el mismo",
+    "att": "Des",
+    "description": "Eres hábil en acercarte mucho a un oponente. No sufres penalizador alguno por luchar contra un oponente que tiene un arma de mayor alcance que la tuya. Además, si utilizas las reglas opcionales del combate cercano, obtienes un bonificador +10 al impacto contra tu oponente."
+  },
+  {
+    "name": "Combate cerrado",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Esquivar en entornos estrechos",
+    "att": "Ag",
+    "description": "Chequeos: Esquivar en entornos estrechos. Has aprendido a sacar el máximo partido de los combates en lugares reducidos. Ignoras los penalizadores al Cuerpo a cuerpo que causan los espacios confinados como por ejemplo los túneles, la línea del frente, las trincheras y cosas similares, y puedes utilizar tu Habilidad de Esquivar, incluso si normalmente no se te permitiría debido a la falta de espacio."
+  },
+  {
+    "name": "Condenado",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "la edad de 10 años, un sacerdote de Morr de los denominados Presagiadores te llevó aparte para predecir tu muerte en un ritual de mayoría de edad cargado de incienso denominado la Condena. De acuerdo con tu DJ, construid una Condena adecuada. Si tu personaje muere de una forma que encaja con tu Condena, tu siguiente personaje obtiene un bonificador de la mitad de los PX totales que tu personaje muerto obtuvo durante su estancia en la partida."
+  },
+  {
+    "name": "Contorsionista",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Interpretar y de Agilidad cuando contorsionarse puede resultar de ayuda",
+    "att": "Ag",
+    "description": "Puedes retorcer y manipular tu cuerpo de muchas formas aparentemente antinaturales. Esto te permite deslizarte a través de espacios increíblemente estrechos y doblar tu cuerpo de formas extrañas, lo que concede beneficios determinados por el DJ, posiblemente combinados con un Chequeo con éxito de Agilidad."
+  },
+  {
+    "name": "Contraataque",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Cuerpo a cuerpo cuando te defiendes",
+    "att": "Ag",
+    "description": "Recordando que ‘la mejor defensa es un buen ataque’ respondes a un ataque que te hacen con un contraataque relampagueante. Si tu arma tiene la cualidad Rápida, puedes causar Daño cuando te atacan, como si fuera tu Acción. Puedes Contraatacar tantos ataques por asalto como tu nivel en Contraataque."
+  },
+  {
+    "name": "Corredor",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Chequeos de Atletismo relativos a Correr",
+    "att": "F",
+    "description": "Eres un buen corredor. Tu Atributo de Movimiento cuenta como 1 punto superior cuando Corres."
+  },
+  {
+    "name": "Cortés",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica inicial de Empatía (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Decidido",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "",
+    "att": "V",
+    "description": "Eres el epítome de la determinación y de la resolución. Suma tu nivel en Decidido a tu reserva máxima de Resolución."
+  },
+  {
+    "name": "Dedos ágiles",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Destreza inicial (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Delincuente",
+    "max_val": "no",
+    "tests": "",
+    "att": "",
+    "description": "Eres un delincuente activo que obtiene dinero de fuentes ilícitas, y que no siempre actúa de forma discreta. A efectos de conseguir dinero, o bien en forma de Ganar dinero durante el juego o bien llevando a cabo una Empresa de Salario , consulta la tabla siguiente:\nNivel de Carrera - Dinero adicional por vez que se adquiere el Talento\n1 - +2d10 peniques de bronce\n2 - +1d10 chelines de plata\n3 - +2d10 chelines de plata\n4 - +1 corona de oro\nA causa de tu naturaleza obviamente delictiva, los demás te consideran de un Estatus inferior al suyo, a menos que también dispongan del Talento Delincuente , en cuyo caso el Estatus se compara de la forma habitual; quizá llevas tatuajes de bandas, tienes un aspecto huidizo o un aspecto tosco, a elección tuya. Debido a ello, las fuerzas de la ley locales siempre sospechan de ti y de tus motivaciones, lo que no hace más que empeorar cuantas más veces has adquirido este Talento, con las implicaciones exactas determinadas por el DJ. Los delincuentes que carecen del Talento ganan significativamente menos, pero no es obvio que sean del tipo que acostumbra a infringir la ley, por lo que mantienen su Estatus. Con el consentimiento del DJ, puedes gastar PX para eliminar niveles del Talento Delincuente por el mismo coste en PX que te costó comprarlos."
+  },
+  {
+    "name": "Denodado",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Chequeos de Frialdad para eliminar Estados de Quebrantado.",
+    "att": "V",
+    "description": "No importa lo mal que te vayan las cosas, siempre pareces volver a por más. Puedes intentar un Chequeo de Frialdad para eliminar 1 Estado de Quebrantado al final de cada uno de tus Turnos, así como al final de un Asalto."
+  },
+  {
+    "name": "Desarmar",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Cuerpo a cuerpo relativos a este Talento",
+    "att": "Ini",
+    "description": "Eres capaz de desarmar a un oponente con un cuidadoso giro de la muñeca o un golpe bien apuntado a su mano. Como acción, puedes intentar un Chequeo Enfrentado de Cuerpo a cuerpo/Cuerpo a cuerpo. Si ganas, tu oponente pierde un arma empuñada, que sale despedida 1d10 pies en una dirección aleatoria (los efectos subsiguientes los determinará el DJ). Si ganas por 2 NE, puedes decidir tú lo lejos que va a parar el arma, en lugar de tirando dados; si ganas por 4 NE, también puedes elegir la dirección en la que sale el arma; si ganas por 6 NE o más, puedes hacerte con el arma de tu oponente si tienes una mano libre, atrapándola en el aire con un floreo. Este Talento es inútil si tu oponente va desarmado o si es de un Tamaño mayor que tú."
+  },
+  {
+    "name": "Desfalcar",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Inteligencia (desfalcar)",
+    "att": "I",
+    "description": "Eres hábil en sisar dinero a tus jefes sin ser detectado. Siempre que obtienes dinero con Ganar dinero (durante el juego o llevando a cabo una Empresa de Salario ) puedes intentar un Chequeo Enfrentado de Inteligencia contra tu jefe (suponiendo que lo tengas). Si ganas, sisas 2d10 + NE peniques de bronce, 1d10 + NE chelines de plata o bien 1 + NE coronas de oro (dependiendo del tamaño del negocio, que determinará el DJ) sin ser detectado. Si tu jefe gana por 6 NE o más, consigues el dinero, pero tu desfalco es detectado; lo que sucede después queda a discreción del DJ. Cualquier otro resultado significa que has fracasado a la hora de embolsarte dinero."
+  },
+  {
+    "name": "Detectar artefacto",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Intuición para detectar artefactos mágicos",
+    "att": "Ini",
+    "description": "Eres capaz de notar cuándo hay magia en un artefacto. Puedes intentar un Chequeo de Intuición por cada artefacto mágico tocado. Si tienes éxito, notas que el objeto es mágico; además, cada NE proporciona también una regla especial específica de las que utiliza el objeto, si las hay. Normalmente, sólo puedes intentar este Chequeo una vez por artefacto tocado."
+  },
+  {
+    "name": "Dicción instintiva",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Hablar idioma (magia) al lanzar un hechizo",
+    "att": "Ini",
+    "description": "Comprendes de forma instintiva el idioma de la Magia, y eres capaz de articular rápidamente las frases más complejas sin equivocarte. No sufres una Disfunción mágica si sacas un doble en un Chequeo con éxito de Hablar idioma (magia)."
+  },
+  {
+    "name": "Discutidor",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Chequeos de Carisma al debatir y discutir",
+    "att": "Em",
+    "description": "Estás acostumbrado a discutir tus posiciones y a ganar las discusiones. Si consigues un Chequeo de Carisma para debatir con un oponente, puedes elegir, o bien utilizar el NE que has obtenido o el número que te ha salido en el dado de unidades. Así, una tirada con éxito de 24 se podría utilizar para +4 NE."
+  },
+  {
+    "name": "Disfraz",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Animar (actuar) cuando aparentas ser otra persona",
+    "att": "Em",
+    "description": "Eres un experto en adoptar la apariencia y los manierismos de otros. Con tan sólo cambios de postura, de expresión facial y un uso cuidadoso de las ropas apropiadas, ya no pareces ser tú mismo sin necesidadde utilizar material de disfraz."
+  },
+  {
+    "name": "Disparo certero",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Siempre aciertas a un oponente entre los ojos… o en cualquier otra parte a la que apuntas. En lugar de invertir los dados para determinar en qué Ubicación de impacto aciertas con tus armas a distancia, puedes simplemente elegirla."
+  },
+  {
+    "name": "Disparo infalible",
+    "max_val": "Bonificador a tu Habilidad de proyectiles",
+    "tests": "",
+    "att": "HP",
+    "description": "Eres un tirador excepcional y sabes dónde disparar a un enemigo para causar el máximo de daño. Infliges tu nivel de Disparo infalible en Daño adicional con todas las armas a distancia."
+  },
+  {
+    "name": "Disparo rápido",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "A distancia cuando llevas a cabo un Disparo rápido",
+    "att": "Ag",
+    "description": "Si dispones de un arma a distancia cargada, puedes dispararla fuera del Orden de Iniciativa normal antes de que cualquier otro combatiente reaccione en el Asalto siguiente. Tiras para impactar utilizando los modificadores normales. Utilizar Disparo rápido requiere a la vez tu Acción y tu Movimiento para el siguiente turno, y contarán como gastados cuando llegue. Si dos o más personajes utilizan Disparo rápido , quien ha adquirido más veces el Talento va primero. Si más de un personaje ha adquirido Disparo rápido un número igual de veces, los disparos de todos ellos son simultáneos y se deben resolver al mismo tiempo."
+  },
+  {
+    "name": "Disparo seguro",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "",
+    "att": "Ini",
+    "description": "Sabes cómo encontrar los puntos débiles en la armadura de un objetivo. Cuando aciertas a un objetivo con un arma A distancia, puedes ignorar tantos puntos de Armadura como tu nivel de Disparo seguro."
+  },
+  {
+    "name": "Distraer",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Atletismo para Distraer",
+    "att": "Ag",
+    "description": "Estás entrenado en movimientos sencillos para distraer o sobresaltar a tu oponente, desviando su atención de tus verdaderas intenciones. Puedes utilizar tu Movimiento para llevar a cabo una Distracción. Esto se resuelve mediante un Chequeo Enfrentado de Atletismo/Frialdad. Si ganas, tu oponente no puede obtener Ventaja alguna hasta el final del siguiente Asalto."
+  },
+  {
+    "name": "Elaborar",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Sabiduría académica (boticario)",
+    "att": "I",
+    "description": "Tienes habilidad en elaborar pociones, filtros y bebedizos a la carrera. Puedes llevar a cabo una Empresa de Artesanía gratuita para utilizar Sabiduría académica (boticario) sin necesidad de un Taller. Las demás Empresas de Artesanía utilizan las reglas normales."
+  },
+  {
+    "name": "Empuñar dos armas",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Cuerpo a cuerpo o A distancia al atacar con dos armas",
+    "att": "Ag",
+    "description": "Cuando empuñas dos armas, puedes atacar con ambas como tu Acción. Tira para impacto con el arma que empuñas en tu mano principal. Si aciertas, determina el Daño de la forma habitual, pero recuerda la tirada de dado, puesto que la usarás de nuevo. Si el primer golpe impacta, una vez se resuelve, el arma de tu mano secundaria ('mano torpe') puede entonces tomar como objetivo a un oponente disponible a tu elección, utilizando la misma tirada de dado del primer golpe, pero invertida. Así pues, si sacaste 34 al impacto con la primera arma, usarás 43 para impactar con la segunda. Recuerda modificar esta segunda tirada con tu penalizador por mano torpe (-20 a menos que dispongas del Talento Ambidiestro). Este segundo ataque es Enfrentado a una nueva tirada de defensa, y el daño que causa se calcula de la forma habitual. La única excepción a lo antedicho es que saques un Crítico en tu primer golpe. En ese caso, utiliza la tirada de la Tabla de Críticos como tirada del segundo ataque. Así pues, si conseguiste un crítico a la cabeza y sacaste un 56 en la Tabla de Críticos para una Herida grave en el Ojo, tu segundo ataque tendrá un valor de impacto de 56. Si eliges atacar con las dos armas, todas tus tiradas defensivas hasta el inicio de tu siguiente Turno sufrirán un penalizador -10. No obtienes Ventaja cuando atacas con éxito o hieres a un oponente cuando empuñas dos armas si no aciertas con ambos ataques."
+  },
+  {
+    "name": "Entrenado",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Chequeos de Cuerpo a cuerpo cuando estás junto a un aliado que también está Entrenado",
+    "att": "HA",
+    "description": "Se te ha entrenado para luchar hombro con hombro con otros soldados. Si un enemigo te hace perder Ventaja cuando estás junto a un aliado activo que también tiene el Talento Entrenado, puedes conservar 1 punto de Ventaja perdido por cada vez que has adquirido el Talento Entrenado."
+  },
+  {
+    "name": "Equilibrio en cubierta",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "todos los llevados a cabo para resistir el mareo",
+    "att": "R",
+    "description": "Estas acostumbrado al movimiento ondulante de los océanos, y es muy poco probable que te marees, incluso en las peores tormentas. En condiciones de mar normales, no necesitas hacer un Chequeo para ver si te mareas. En otras ocasiones (como por ejemplo una tormenta, o un ataque de mareo mágicamente inducido) puedes ignorar cualquier penalizador a los Chequeos para evitar el mareo."
+  },
+  {
+    "name": "Equitación acrobática",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de esquivar montando a caballo, Montar (caballo)",
+    "att": "Ag",
+    "description": "Eres capaz de increíbles muestras de agilidad a caballo. Puedes utilizar cualquiera de tus Habilidades de Interpretar y tu Habilidad de Esquivar no modificada cuando montas a caballo. Además, cuando vas montado, puedes llevar a cabo tu Movimiento al inicio del Asalto en lugar de en tu Turno."
+  },
+  {
+    "name": "Errante",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Movimiento silencioso en un entorno Rural",
+    "att": "Ag",
+    "description": "Te encuentras como en casa recorriendo los lugares más salvajes. Cuando utilizas Movimiento silencioso en un entorno rural, los que te rodean no tienen derecho a Chequeos de Percepción pasiva para detectarte; sólo pueden divisarte si están específicamente de vigilancia o buscando espías ocultos."
+  },
+  {
+    "name": "Escalador",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Escalar",
+    "att": "F",
+    "description": "Eres un escalador excepcional. Puedes intentar escalar superficies aparentemente imposibles como fortificaciones, paredes de hielo, muros enlucidos y cosas similares, ignorando cualquier penalizador a los Chequeos de Escalar derivado de la dificultad de la superficie implicada."
+  },
+  {
+    "name": "Escudero",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "cualquier Chequeo para defenderse con un escudo",
+    "att": "F",
+    "description": "Eres hábil utilizando un escudo para hacer moverse a otros en combate y así sacar partido de una situación desesperada. Cuando utilizas un Escudo para defenderte, obtienes tanta Ventaja como niveles tienes en Escudero si pierdes el Chequeo Enfrentado."
+  },
+  {
+    "name": "Espabilado",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica de Inteligencia inicial (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Esquivador",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Esquivar para activar este Talento",
+    "att": "Ag",
+    "description": "Eres hábil en moverte a donde las armas enemigas no llegan. Si utilizas Esquivar para defenderte contra un ataque y ganas el Chequeo Enfrentado, te puedes mover hasta 2 yardas mientras te apartas de un salto, y ya no se te considera Trabado. Ninguno de tus oponentes obtiene un Ataque gratuito cuando lo haces."
+  },
+  {
+    "name": "Etiqueta (Grupo social)",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Carisma y Cotilleo (grupo social)",
+    "att": "Em",
+    "description": "Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía."
+  },
+  {
+    "name": "Experto en dados",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Jugar o Prestidigitación cuando juegas a dados",
+    "att": "I",
+    "description": "Eres un maestro con los dados, y toda afirmación de que haces trampas está claramente equivocada. Cuando utilizas con éxito Jugar o Prestidigitación en una partida de dados, puedes elegir entre utilizar los NE obtenidos con la tirada de dado o el número que ha salido en el dado de las unidades. Así, una tirada con éxito de 06 se podría utilizar para +6 NE. Si utilizáis cualquier juego de dados de la vida real para representar los juegos de dados de lapartida, tiras siempre tantos dados adicionales como tu nivel de Experto en dados y eliges los mejores resultados."
+  },
+  {
+    "name": "Experto en trampas",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Percepción para divisar trampas, Poner trampas",
+    "att": "Ini",
+    "description": "Eres hábil en divisar y utilizar trampas. Puedes llevar a cabo un Chequeo de Percepción para divisar trampas automáticamente sin tener que informar de tus intenciones al DJ; sin embargo, éste podría preferir llevar a cabo algunos de dichos Chequeos por tu cuenta en privado."
+  },
+  {
+    "name": "Fintador",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Cuerpo a cuerpo (esgrima) para Fintar",
+    "att": "HA",
+    "description": "Has entrenado cómo llevar a cabo ataques falsos en combate cerrado para engañar a tu oponente. Ahora puedes llevar a cabo una Finta como Acción contra cualquier oponente que utiliza un arma. Esto se resuelve mediante un Chequeo Enfrentado de Cuerpo a cuerpo (esgrima)/Cuerpo a cuerpo. Si ganas y atacas al mismo oponente antes del final del siguiente Asalto, puedes añadir el NE de tu Finta a tu tirada de ataque."
+  },
+  {
+    "name": "Flagelante",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "cualquiera para resistirse a los Poderes Ruinosos",
+    "att": "R",
+    "description": "Has dedicado tu dolor al servicio de tu dios. Cada día, debes invertir media campana (media hora) rezando mientras mantienes un número de Heridas sufridas igual a tu nivel de Flagelante. Hasta la siguiente vez que duermes, si dispones el Talento Furia puedes entrar inmediatamente en Furia sin hacer Chequeo alguno.\nEl Talento Furia se añade a la lista de Talentos de cualquier Carrera en la que estás. Si te olvidas de flagelarte en un día determinado, o permites que tu castigada carne se cure, no puedes gastar Resiliencia ni Resolución hasta que te flagelas de nuevo."
+  },
+  {
+    "name": "Fornido",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "Chequeos de Fuerza al levantar pesos",
+    "att": "F",
+    "description": "Tienes un físico musculoso o estás muy acostumbrado a llevar pesos. Aumenta el número de puntos de Impedimenta que puedes llevar en una cantidad igual a tu nivel de Fornido x2."
+  },
+  {
+    "name": "Francotirador",
+    "max_val": "4",
+    "tests": "distancia (distancia larga o extrema)",
+    "att": "",
+    "description": "La distancia no importa para tu puntería, y puedes acertar tanto a objetivos lejanos como a cercanos. No sufres penalizador alguno por disparar a alcance Largo, y sólo la mitad de los penalizadores por alcance Extremo."
+  },
+  {
+    "name": "Frenesí",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Chequeos de Cuerpo a cuerpo cuando estás en Furia",
+    "att": "V",
+    "description": "Eres más capaz de controlar tu Furia en combate. Puedes acabar tu Furia mediante un Chequeo con éxito de Frialdad al final del asalto."
+  },
+  {
+    "name": "Fullero",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Jugar y Prestidigitación al jugar a cartas",
+    "att": "I",
+    "description": "Estás acostumbrado a jugar y a ganar a las cartas, aunque tus métodos pueden implicar alguna que otra trampa. Cuando utilizas con éxito Jugar o Prestidigitación al jugar a cartas, puedes elegir o bien utilizar el NE obtenido, o el número que ha salido en el dado de las unidades. Así, una tirada con éxito de 28 se podría utilizar para +8 NE. Si juegas una partida real de cartas para representar lo que está sucediendo en la partida, puedes obtener un número de cartas adicionales por mano igual a tu nivel de Fullero, y luego descartar las que te sobren hasta tener una mano de la cantidad apropiada antes de cada ronda de juego."
+  },
+  {
+    "name": "Furia",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Puedes entrar en Furia."
+  },
+  {
+    "name": "Gato callejero",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Movimiento silencioso (urbano)",
+    "att": "Ini",
+    "description": "Te sientes como en casa en los callejones sombríos. Al utilizar Movimiento silencioso (urbano), puedes invertir los dados de cualquier Chequeo fallido si eso te representa un éxito."
+  },
+  {
+    "name": "Genio aritmético",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Tasar, Jugar",
+    "att": "I",
+    "description": "Tienes un don para el cálculo y puedes encontrar con facilidad la solución a muchos problemas matemáticos. Puedes utilizar una simple calculadora para representar de lo que es capaz tu PJ a la hora de calcular mentalmente."
+  },
+  {
+    "name": "Giro",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Cuerpo a cuerpo cuando te defiendes",
+    "att": "HA",
+    "description": "Estás acostumbrado a los combates desesperados, y eres capaz de convertir en Ventaja incluso la más terrible de las circunstancias. Si ganas un Chequeo Enfrentado de Cuerpo a cuerpo, en lugar de obtener +1 Ventaja, puedes llevarte toda la Ventaja actual de tu oponente. Si lo haces, no causas Daño alguno, incluso si es tu Turno en ese Asalto."
+  },
+  {
+    "name": "Golpe conmocionador",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Chequeos de Cuerpo a cuerpo cuando propinas un Golpe conmocionador",
+    "att": "HA",
+    "description": "Sabes dónde pegar a un oponente para tumbarlo rápido. Ignoras el penalizador de 'Golpe apuntado' para atacar la Ubicación de impacto Cabeza utilizando un arma cuerpo a cuerpo con la Cualidad Contundente. Además, para ti todas las armas improvisadas cuentan como si tuvieran la Cualidad Contundente."
+  },
+  {
+    "name": "Golpe cuidadoso",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "",
+    "att": "",
+    "description": "Tienes habilidad en golpear a tu enemigo exactamente donde quieres, ya sea a distancia o en cuerpo a cuerpo. Puedes modificar el resultado de tu Ubicación de impacto en ± 10 por cada vez que tienes este talento. Así que, si tuvieras este Talento dos veces e impactaras en la Ubicación de impacto 34 (brazo derecho), podrías modificar hacia abajo hasta 14 (brazo izquierdo) o hacia arriba hasta 54 (cuerpo)."
+  },
+  {
+    "name": "Golpe de reacción",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Iniciativa relativos a este Talento",
+    "att": "Ini",
+    "description": "Tus reacciones rápidas te han permitido abatir a muchos oponentes antes de que hayan conseguido siquiera blandir sus armas. Cuando alguien Carga contra ti, puedes intentar de inmediato un Chequeo Desafiante (+0) de Iniciativa para obtener un Ataque gratuito inmediato fuera de la secuencia normal del turno. Este ataque se resolverá con cualquier arma que empuñes en tu mano principal. Podrás llevar a cabo tantos Golpes de reacción en un Asalto como niveles tengas en este Talento, pero sólo podrás atacar una vez a cada individuo que cargue contra ti."
+  },
+  {
+    "name": "Golpe letal",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "",
+    "att": "Ini",
+    "description": "Eres un experto en golpear las áreas más vulnerables de tus enemigos. Infliges tu nivel de Golpe letal en forma de Heridas adicionales cuando causas una Herida Crítica."
+  },
+  {
+    "name": "Golpe poderoso",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "",
+    "att": "F",
+    "description": "¡Sabes cómo pegar duro ! Aplicas tu nivel de Golpe poderoso en forma de Daño adicional con las armas cuerpo a cuerpo."
+  },
+  {
+    "name": "Golpear el filo",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Cuerpo a cuerpo para Golpear el filo",
+    "att": "HA",
+    "description": "Te han entrenado para propinar golpes controlados al arma de tu oponente, creando una abertura para un ataque, o simplemente evitando un ataque inminente. Como acción, puedes elegir Golpear el filo antes de tirar los dados. Haz un Chequeo de Cuerpo a cuerpo; si tienes éxito, tu oponente se anota -1 Ventaja y un -1 adicional por cada NE que consigues. Este Chequeo no es Enfrentado. Este talento no tiene utilidad si tu oponente no va armado o si su Tamaño es mayor que el tuyo."
+  },
+  {
+    "name": "Gregario",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Chequeos de Cotilleo con viajeros",
+    "att": "Em",
+    "description": "Te gusta hablar con otra gente y parece que a ellos les gusta hablar contigo. Puedes invertir cualquier Chequeo fallido de cotilleo si esto permite que el Chequeo tenga éxito."
+  },
+  {
+    "name": "Guerrero nato",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica de Habilidad de arma inicial (no cuenta como Avances)."
+  },
+  {
+    "name": "Guía fluvial",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Cualquier Chequeo de Sabiduría académica relativo a asuntos fluviales",
+    "att": "Ini",
+    "description": "Conoces todos los trucos de navegar por ríos peligrosos. No necesitas hacer un Chequeo para atravesar tramos peligrosos de un río a menos que la Dificultad para hacerlo sea -10 o inferior; tienes éxito de forma automática en todos los Chequeos más fáciles que eso. Además, si dispones de la Habilidad Sabiduría académica (local) apropiada, nunca necesitas hacer Chequeos para navegar por aguas peligrosas; se supone que dominas la ruta por completo."
+  },
+  {
+    "name": "Hechicero de guerra",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Estás entrenado para lanzar magia en el fragor del combate. En tu turno, puedes lanzar un hechizo con un Número de Lanzamiento de 5 o menos de forma gratuita sin utilizar tu Acción. Sin embargo, si lo haces, no puedes lanzar otro hechizo ese turno."
+  },
+  {
+    "name": "Identidad secreta",
+    "max_val": "Bonificador por inteligencia",
+    "tests": "Chequeos de Animar (actuar) para apoyar tus identidades secretas",
+    "att": "I",
+    "description": "Mantienes una identidad secreta que te permite parecer más rico (o quizás más pobre) de lo que realmente eres. Con permiso del DJ, elige cualquier Carrera. Mientras vayas adecuadamente vestido, podrás utilizar el Estatus social de la Carrera elegida de la que te disfraces como si fuera tuyo a efectos de modificar los Chequeos de Empatía, pudiendo incluso ignorar el Talento Delincuente . Sin embargo, mantener dicha identidad requiere Chequeos de Animar (actuar) cuando te encuentras con quienes son capaces de reconocer tu falsedad. Puedes crear una nueva Identidad secreta por cada nivel que tienes en este Talento."
+  },
+  {
+    "name": "Imitador",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Animar (actuar) donde los acentos son importantes.",
+    "att": "Ini",
+    "description": "Tienes buen oído para los acentos y los dialectos, y los puedes reproducir de forma precisa. Puedes reproducir cualquier acento con el que has estado en contacto por lo menos un día mediante un Chequeo de Iniciativa; este Chequeo se puede intentar una vez al día. Una vez lo consigues, siempre puedes limitar el acento y los lugareños creen que eres uno de ellos."
+  },
+  {
+    "name": "Imperturbable",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Chequeos de Frialdad para resistir el pánico a la Pólvora negra",
+    "att": "V",
+    "description": "Eres un veterano curtido, que ha sobrevivido a más de una ráfaga de disparos procedentes de armas de Pólvora negra. Tan sólo necesitas llevar a cabo un Chequeo de Frialdad para resistirte al estado de Quebrantado si resultas herido con éxito por un arma de Pólvora negra, no si simplemente te disparan con ella."
+  },
+  {
+    "name": "Implacable",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "",
+    "att": "R",
+    "description": "Cuesta bastante acabar contigo. Puedes ignorar las Heridas perdidas debido a un Estado de Sangrando. Cada nivel en este Talento te permite ignorar las Heridas perdidas debido a un Estado de Sangrando adicional."
+  },
+  {
+    "name": "Incansable",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "",
+    "att": "Ag",
+    "description": "Cuando has fijado tu mente en un objetivo, no hay nada que nadie pueda hacer para impedirte llegar al mismo. Si usas Ventaja al Destrabarte, puedes guardar un número de Ventajas igual a tu nivel de Incansable . Además, puedes utilizar Ventaja para Destrabarte, incluso si tu Ventaja es menor que la de los oponentes."
+  },
+  {
+    "name": "Inspirador",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Mando durante la guerra",
+    "att": "Em",
+    "description": "Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra. Talentos adquiridos - Número de soldados influenciados\n1 - Lo normal x 5\n2 - Lo normal x 10\n3 - Lo normal x 20\n4 - Lo normal x 50\n5 - Lo normal x 100\n6 - Lo normal x 200\n7 - Lo normal x 500\n8 - Lo normal x 1000\n9 - Todos los que puedan oír tu inspiradora voz\nEjemplo: el monasterio de la abadesa Birgitte van Hoogenband está siendo atacado por los pieles verdes, y las cosas pintan mal. Por lo tanto, decide reforzar el espíritu de sus soldados con un Chequeo de Mando, que les concede un +10 a todos los Chequeos de Psicología. Su Chequeo de Mando obtiene 3 NE. Como quiera que tiene un Bonificador por empatía de 6 y, utilizando Mando, puede influenciar a tantos soldados como su Bonificador por Empatía + NE, refuerza a 9 soldados. Sin embargo, y como tiene Inspirador 3, dicho número se multiplica por 20 por lo que 180 de sus soldados se sienten reforzados por su grito de aliento de «¡NO CEDÁIS!’"
+  },
+  {
+    "name": "Intelectual",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Investigar",
+    "att": "I",
+    "description": "Te sientes tan en casa en una biblioteca como un marino en el mar o un granjero en sus tierras. Al Investigar, puedes invertir los dados de cualquier Chequeo fallido si esto te reporta un éxito."
+  },
+  {
+    "name": "Intrépido (Enemigo)",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Frialdad para oponerse al Intimidar, Miedo y Terror de tu Enemigo",
+    "att": "V",
+    "description": "Eres, o bien lo suficientemente valiente o lo suficientemente insensato como para que el miedo a ciertos enemigos se haya convertido en un recuerdo lejano. Mediante un único Chequeo Normal (+20%) de Frialdad, puedes ignorar cualquier efecto de Intimidar, Miedo o Terror por parte del enemigo especificado cuando te encuentras con él. Los enemigos típicos incluyen hombres bestia, pieles verdes, forajidos, vampiros, vigilantes y brujas."
+  },
+  {
+    "name": "Intrigante",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Chequeos de Inteligencia relativos a este Talento",
+    "att": "I",
+    "description": "Eres un maestro de la política y ves conspiraciones en cada esquina. Una vez por sesión de juego, puedes formular una pregunta al DJ relativa a una situación política o a una red enmarañada de conexiones sociales; éste llevará a cabo en secreto un Chequeo de Inteligencia y te proporcionará algunas observaciones sobre la situación basadas en tu NE."
+  },
+  {
+    "name": "Invocar (Saber divino)",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Has sido bendecido por uno de los dioses y puedes potenciar uno de los Milagros de tu Culto. Además, puedes comprar milagros adicionales al coste de 100 PX por milagro que conoces actualmente. Así, si ya conoces 3 milagros, el siguiente te cuesta 300 PX. En circunstancias normales no podrías aprender más que un Talento de Invocar (Saber divino) . Además, no puedes aprender los Talentos Magia menor ni Magia arcana cuando tienes el Talento Invocar . Puedes borrar de tu memoria este Talento por 100 PX, pero si lo haces perderás todos los demás, y por si fuera poco te ganarás la extrema desaprobación de tu dios, los efectos de lo cual serán determinados por tu DJ."
+  },
+  {
+    "name": "Jinete experto",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Montar (caballo) en combate",
+    "att": "Ag",
+    "description": "Te encuentras a gusto en la silla de montar incluso en las circunstancias más difíciles, y sabes cómo sacar el máximo partido de tu montura durante un conflicto. Suponiendo que tienes la Habilidad de Montar, puedes ordenar a tu montura que lleve a cabo una Acción, no tan sólo un Movimiento, sin necesidad de un Chequeo de Montar."
+  },
+  {
+    "name": "Juerguista",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "Carisma en Fiestas, Cotilleo en Fiestas, Consumir alcohol",
+    "att": "R",
+    "description": "Eres un bebedor experto y sabes cómo ir de fiesta a lo grande. Puedes invertir los dados de cualquier Chequeo fallido de Consumir alcohol si esto te lo convierte en un Éxito."
+  },
+  {
+    "name": "Lector rápido",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Chequeos de Investigar y de Leer y escribir donde la velocidad de lectura es importante",
+    "att": "I",
+    "description": "Lees libros a un ritmo voraz. Puedes invertir un Chequeo de Investigar fallido si esto te concede un éxito. Si la velocidad a la que lees es importante durante el combate, un Chequeo con éxito de Leer y escribir te permite leer y entender por completo tantas páginas por Asalto como tu NE más tu nivel de Lector rápido (mínimo 1, incluso si fallas el Chequeo)."
+  },
+  {
+    "name": "Leer labios",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Percepción relativos a este Talento",
+    "att": "Ini",
+    "description": "Puedes saber lo que la gente dice tan sólo mirándole a los labios; no necesitas oír lo que están diciendo. Si tienes una línea visual ininterrumpida hasta la parte inferior del rostro de quien habla, puedes intentar un Chequeo de Percepción para entender lo que está diciendo."
+  },
+  {
+    "name": "Leer y escribir",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Eres uno de los raros individuos del Viejo Mundo que sabe leer y escribir. Se supone que eres capaz de leer y escribir (si existe forma escrita) todos los idiomas que puedes hablar."
+  },
+  {
+    "name": "Levantarse de un salto",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Es difícil mantenerte en el suelo. Puedes llevar a cabo un Chequeo Desafiante (+0) de Atletismo para ponerte en pie de inmediato cada vez que pasas al Estado Tumbado . Este Chequeo de Atletismo a menudo se modifica por la Fuerza que hay tras el golpe que te derriba: por cada +10 puntos de Fuerza en los que el golpe supera tu Resistencia, sufres un penalizador -10 al Chequeo de Atletismo, y viceversa."
+  },
+  {
+    "name": "Líder de guerra",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Chequeos de Mando en tiempo de guerra",
+    "att": "Em",
+    "description": "Tu severa mirada y tus inspiradoras palabras motivan a tus soldados para luchar hasta el final. Todos los subordinados capaces de verte pueden sumar tu nivel en Líder de guerra a tu NE en un Chequeo de Voluntad por Asalto. Este bonificador no se apila."
+  },
+  {
+    "name": "Lingüística",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Hablar idioma (todos)",
+    "att": "I",
+    "description": "Tienes una afinidad natural por los idiomas. Tras una exposición de un mes a cualquier idioma, cuentas la Habilidad de Hablar idioma asociada como una Habilidad básica si llevas a cabo un Chequeo con éxito de Inteligencia (que se puede intentar una vez al mes). Nota: la Lingüística sólo funciona con idiomas utilizados para comunicarse frecuentemente con los demás, por lo que no funciona con Hablar idioma (magia)."
+  },
+  {
+    "name": "Lobo de mar",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Navegar (cualquier navío capaz de navegar por alta mar)",
+    "att": "Ag",
+    "description": "Eres un marinero experto, y estás muy habituado a la vida del mar. Puedes ignorar todos los modificadores negativos a los Chequeos en el mar derivados del mal tiempo, del movimiento del navío y de cosas similares. Además, y a efectos de la tripulación mínima de un navío en alta mar, cuentas como dos marineros."
+  },
+  {
+    "name": "Maestro del combate",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "",
+    "att": "Ag",
+    "description": "Tus años acumulados de experiencia de combate te permiten mantener a raya a combatientes menores. Por cada nivel en este Talento, cuentas como una persona más a efectos de determinar si un bando tiene superioridad numérica sobre el otro. Este Talento sólo entra en juego cuando te ves superado en número."
+  },
+  {
+    "name": "Magia arcana (Saber)",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Puedes, o bien estudiar uno de los ocho Saberes arcanos de la Magia (Bestias, Cielos, Fuego, Luz, Metal, Muerte, Sombra y Vida) o practicar un Saber menos conocido como Adivinación o Nigromancia. Ahora puedes memorizar hechizos de tu Saber elegido al siguiente coste en PX.\nNº de hechizos actualmente conocidos - Coste en PX de un nuevo hechizo\nHasta tu Bonificador por Inteligencia x 1 - 100 PX\nHasta tu Bonificador por Inteligencia x 2 - 200 PX\nHasta tu Bonificador por Inteligencia x 3 - 300 PX\nHasta tu Bonificador por Inteligencia x 4 - 400 PX\n... y así sucesivamente.\nPor lo tanto, si tu Bonificador por Inteligencia es 4, el primer hechizo y los siguientes 4 te costarán 100 PX, los segundos 4 te costarán 200 PX, etc. Las reglas completas para aprender nuevos hechizos se proporcionan en el Capítulo 8: Magia. En circunstancias normales, no puedes aprender más de un talento de Magia arcana (Saber) . Además, cuando tienes el Talento Magia arcana , no puedes aprender los Talentos Bendecir ni Invocar. Puedes borrar de la memoria este Talento por 100 PX, pero si lo haces perderás de inmediato todos tus hechizos."
+  },
+  {
+    "name": "Magia del Caos (Saber)",
+    "max_val": "número de hechizos disponible en el Saber de la Magia del Caos elegido.",
+    "tests": "",
+    "att": "",
+    "description": "Por accidente o por diseño has perdido una parte de tu alma a manos de uno de los Dioses Oscuros, y ahora puedes practicar la sucia magia del Caos. Tu pernicioso patrón te concede acceso de inmediato a un solo hechizo del Saber elegido (los más comunes son los Saberes de Nurgle, Slaanesh o Tzeentch) y te anotas 1 punto de Corrupción cuando el hechizo (que nunca olvidarás) se infiltra en tu mente. Cada vez que adquieres este Talento, que siempre cuesta 100 PX por vez en lugar del coste normal, aprendes un nuevo hechizo de tu Saber elegido y te anotas 1 punto de Corrupción. Para más información acerca de los hechizos disponibles, consulta el Capítulo 8: magia. En circunstancias normales, sólo puedes conocer uno de los Saberes de la Magia del Caos."
+  },
+  {
+    "name": "Magia menor",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Tienes en ti la chispa necesaria para hacer magia, y has dominado las técnicas capaces de controlarla a un nivel básico. Cuando adquieres este Talento, manifiestas (y memorizas de forma permanente) tantos hechizos como tu Bonificador por Voluntad. Puedes aprender hechizos adicionales de Magia menor al siguiente coste en PX.\nNº de hechizos menores conocido - Coste en PX de un hechizo nuevo\nHasta tu Bonificador por Voluntad x 1 - 50 PX\nHasta tu Bonificador por Voluntad x 2 - 100 PX\nHasta tu Bonificador por Voluntad x 3 - 150 PX\nHasta tu Bonificador por Voluntad x 4 - 200 PX\n... y así sucesivamente.\nAsí, si tu Bonificador por Voluntad es 3 y conocías 3 hechizos menores, el primer hechizo aprendido te costará 50 PX, los tres siguientes te costarán 100 PX cada uno, y así sucesivamente."
+  },
+  {
+    "name": "Manitas",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Chequeos de Oficio para reparar objetos rotos",
+    "att": "Des",
+    "description": "Sabes de todo un poco, y eres capaz de reparar casi cualquier cosa. Cuentas todas las Habilidades de Oficio no mágicas como básicas cuando reparas objetos rotos."
+  },
+  {
+    "name": "Mano dura",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Chequeos de Conducir o de Montar cuando huyes o corres",
+    "att": "Des",
+    "description": "Sabes cómo sacar el máximo partido de tus animales. Cuando un animal que controlas huye o corre, obtienes un +1 al Movimiento si estás utilizando un látigo."
+  },
+  {
+    "name": "Manos rápidas",
+    "max_val": "Bonificador por Destreza",
+    "tests": "Prestidigitación, Cuerpo a cuerpo (pelea) para tocar a un oponente",
+    "att": "Des",
+    "description": "Puedes mover las manos con sorprendente destreza. Los presentes no tienen derecho a Chequeos de Percepción pasivos para darse cuenta de tu uso de la Habilidad Prestidigitación, y en su lugar tan sólo pueden enfrentarse a tus Chequeos de Prestidigitación si sospechan de forma activa y están vigilando tus movimientos. Además, todo intento de utilizar Cuerpo a cuerpo (pelea) para simplemente tocar a un oponente te da un bonificador +10 x tu nivel en Manos rápidas."
+  },
+  {
+    "name": "Matador",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Al determinar el Daño utiliza el Bonificador por Resistencia de tu oponente como tu Bonificador por Fuerza si es superior; determina siempre esto antes de que cualquier otra regla modifique tu Fuerza o tu Bonificador por fuerza. Además, si tu objetivo es más grande que tú y consigues un Crítico, multiplica todo el Daño cuerpo a cuerpo que causas por el número de pasos mayor que es tu objetivo (así, 2 pasos = x2, 3 pasos = x3, y así sucesivamente); esta multiplicación se calcula una vez se han aplicado todos los modificadores."
+  },
+  {
+    "name": "Memoria visual",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "",
+    "att": "I",
+    "description": "Una técnica de memorización que introdujo inicialmente el Culto de Verena, según parece a partir de prácticas de los elfos que enseñaban los Maestros del saber de Hoeth, la Memoria visual permite recordar perfectamente una secuencia de hechos almacenándola en una espira imaginaria. Puedes recordar una secuencia tan larga como tu Inteligencia sin tener siquiera que hacer un Chequeo. Por cada 10 objetos más que intentas memorizar, debes llevar a cabo un Chequeo de Inteligencia cada vez más difícil para recordar correctamente la lista, empezando por Muy Fácil (+60) para +10, Fácil (+40) para +20, Normal (+20) para +30 y así sucesivamente. Más allá de su utilidad obvia para los Chequeos de Jugar, donde disponer de este Talento añadirá un bonificador de entre +20 y +60 dependiendo de lo útil que sea recordar secuencias para el juego de que se trate, el DJ podrá aplicar modificadores a otros Chequeos según vea apropiado. Cada vez que adquieres este Talento, puedes recordar una secuencia adicional sin tener que olvidar otra almacenada previamente."
+  },
+  {
+    "name": "Muy fuerte",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica de Fuerza inicial (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Muy resistente",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica de Resistencia inicial (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Negociador",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Regatear",
+    "att": "Em",
+    "description": "Eres un hábil hombre de negocios, que sabe cerrar un trato. Utilizando la habilidad de Regatear reduces o incrementas el precio de los productos en un 10% adicional.\nNota: el DJ puede imponer un límite inferior a los precios para este caso, a fin de mostrar que un vendedor se niega a vender por debajo del coste."
+  },
+  {
+    "name": "Numismático",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Tasar para establecer el valor de unas monedas.",
+    "att": "Ini",
+    "description": "Estás bien versado en las diferentes monedas del Viejo Mundo, y se te da bien determinar su valor. Puedes juzgar el verdadero valor de una moneda sólo por experiencia, sin siquiera necesitar un Chequeo. Además, puedes identificar monedas falsificadas con un Chequeo Sencillo de Tasar; nunca se ve enfrentado al NE del falsificador."
+  },
+  {
+    "name": "Obra maestra",
+    "max_val": "No",
+    "tests": "",
+    "att": "",
+    "description": "Eres un maestro indiscutible en tu campo, capaz de crear obras de tan increíble complejidad que los demás sólo pueden relajarse y maravillarse de tu genio. Cada vez que adquieres este Talento puedes crear una obra de arte única y extraordinaria con una de tus Habilidades de Arte u Oficio. Esta obra no tiene parangón en su campo, una pieza única que siempre impresionará y que concede bonificadores a determinar por el DJ, lo más normal es que sea a los Chequeos de Empatía por parte de quienes han sido testigos de tu asombrosa labor. Vender la pieza te reportará por lo menos diez veces su valor normal, y a veces mucho más que eso."
+  },
+  {
+    "name": "Odio sagrado",
+    "max_val": "Bonificador por Empatía",
+    "tests": "",
+    "att": "Em",
+    "description": "De tus plegarias gotea el odio que sientes hacia tus blasfemos enemigos. Infliges +1 Daño con tus Milagros por cada nivel que tienes en este Talento."
+  },
+  {
+    "name": "Odio visceral (Grupo)",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Voluntad (resistir grupo)",
+    "att": "V",
+    "description": "Te consume el odio contra algo del Viejo Mundo. Cada vez que adquieres este Talento desarrollas un nuevo odio hacia un nuevo grupo. Ejemplos de lo que podrías elegir incluyen: hombres bestia, pieles verdes, monstruos, forajidos, sigmaritas, muertos vivientes o brujos."
+  },
+  {
+    "name": "Olfato para los problemas",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "cualquier Chequeo para detectar alborotadores",
+    "att": "Ini",
+    "description": "Estás acostumbrado a meterte en problemas y, preferiblemente, a salir de ellos. Puedes intentar un Chequeo de Intuición para divisar a quienes buscan causar problemas o hacerte daño, incluso si normalmente no se te permitiría (debido a Talentos o a un Hechizo, por ejemplo). Este Chequeo será normalmente Enfrentado si los otros están escondidos, y es posible que el DJ prefiera llevarlo a cabo él mismo en secreto para que no sepas el resultado si fallas. Si algún alborotador al que divisas inicia combate, puedes ignorar cualquier Estado de Sorprendido que inflige de forma normal."
+  },
+  {
+    "name": "Orador",
+    "max_val": "Bonificador por Empatía",
+    "tests": "",
+    "att": "Em",
+    "description": "Eres un orador experimentado y sabes cómo influenciar a grandes grupos de personas. Consulta la siguiente tabla para ver a cuánta gente puedes influenciar ahora con tu Habilidad de Carisma, como Orador.\n Talentos adquiridos - Personas influenciadas\n1 - Lo normal x 5\n2 - Lo normal x 10\n3 - Lo normal x 20\n4 - Lo normal x 50\n5 - Lo normal x 100\n6 - Lo normal x 200\n7 - Lo normal x 500\n8 - Lo normal x 1000\n9 - Todos los que pueden oír tu dorada voz"
+  },
+  {
+    "name": "Orador experto",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Carisma cuando mientes",
+    "att": "Em",
+    "description": "Como Ranald, el dios bromista, mezclas verdades y mentiras como si no hubiera diferencia. Cuando utilizas el Carisma para mentir, quienes escuchan no tienen derecho a oponerse a tu Carisma con su Intuición para detectar si hay algo sospechoso en lo que dices."
+  },
+  {
+    "name": "Orador maestro",
+    "max_val": "Bonificador por Empatía",
+    "tests": "",
+    "att": "Em",
+    "description": "Eres hábil en inflamar a las multitudes. Obtienes un bonificador al NE igual a tus niveles de Orador maestro a cualquier Chequeo de Carisma cuando hablas en público ante una multitud."
+  },
+  {
+    "name": "Orientarse",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Orientación",
+    "att": "Ini",
+    "description": "Tienes una afinidad instintiva para conocer la dirección. Sabes automáticamente en qué dirección está el norte con tan sólo mirar a las estrellas, a los árboles o a cualesquiera otros signos familiares."
+  },
+  {
+    "name": "Parloteo",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Carisma para Parlotear",
+    "att": "Em",
+    "description": "Denominado ‘abrir la boca y dejar que las tripas gruñan’ en Nordland o simplemente ‘decir tonterías’ en Ostland, el Parloteo implica hablar de forma rápida e incesante, o hablar de forma voluble y prolongada sobre temas intrascendentes o directamente inanes, y se utiliza para confundir y aturullar verbalmente a un objetivo. Utilizas tu Habilidad de Carisma para Parlotear . Intenta un Chequeo Enfrentado Carisma/Inteligencia. Un éxito hace que tu oponente sufta 1 Estado de Aturdido . Además, por cada nivel que tengas en Parloteo , tu oponente sufrirá otro Estado de Aturdido . Los objetivos Aturdidos por Parloteo no pueden hacer otra cosa que quedársete mirando embobados mientras intentan seguir o entender lo que dices. Una vez se acaba el último estado de Aturdido , el objetivo consigue finalmente meter baza y puede que esté algo irritado contigo, al fin y al cabo llevas bastante rato diciendo tonterías o hablando de nada en concreto. Si dejas de hablar, tu oponente pierde de inmediato todos los Estados de Aturdido originados por tu Parloteo. En general, sólo puedes intentar el Parloteo una vez por escena, o quizá más tiempo si lo permite el DJ, puesto que el objetivo se habitúa rápidamente a tus payasadas."
+  },
+  {
+    "name": "Pedigüeño",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Carisma (mendigar)",
+    "att": "Em",
+    "description": "Eres un mendigo experto, capaz de hacer que incluso el individuo más insensible contribuya a tu causa. Puedes llevar a cabo un Chequeo de Carisma cada media hora cuando mendigas, no cada hora."
+  },
+  {
+    "name": "Pelea callejera",
+    "max_val": "Bonificador a la Habilidad de arma",
+    "tests": "Cuerpo a cuerpo (pelea)",
+    "att": "HA",
+    "description": "Te han enseñado todos los trucos sucios del combate sin armas. Puedes causar +1 Daño adicional por cada nivel en Pelea callejera con cualquier impacto en Cuerpo a cuerpo (pelea).\nNota: utilizar este Talento se considera hacer trampas en cualquier combate formal."
+  },
+  {
+    "name": "Pequeño",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Eres mucho más bajito que la mayoría de gente del Viejo Mundo."
+  },
+  {
+    "name": "Percepción de combate",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Percepción durante el combate cuerpo a cuerpo",
+    "att": "Ini",
+    "description": "Estás acostumbrado a escrutar el campo de batalla a fin de tomar decisiones rápidas, de acuerdo con las cambiantes corrientes de la guerra. Puedes llevar a cabo un Chequeo Desafiante (+0) de Percepción para ignorar la Sorpresa, modificado por las circunstancias de la forma habitual."
+  },
+  {
+    "name": "Pescador",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "cualquier Chequeo que implique pescar",
+    "att": "Ini",
+    "description": "Chequeos: cualquier Chequeo que implique pescar Eres un pescador muy capaz y conoces las mejores formas de obtener capturas. Suponiendo que haya una masa de agua lo suficientemente grande cerca, se supone que eres automáticamente capaz de pescar lo suficiente como para alimentarte a ti mismo y a tantos otros como tu nivel en Pescador , si cada día pasas por lo menos 1 hora dedicado a esta actividad. Puedes conseguir más pescado utilizando las reglas normales de forrajeo."
+  },
+  {
+    "name": "Piernas recias",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "",
+    "att": "F",
+    "description": "Tienes unas piernas fuertes, capaces de permitirte cubrir una buena distancia cuando saltas. Suma tu nivel de Piernas recias a tu NE en cualquier Chequeo de Atletismo que implica Saltar."
+  },
+  {
+    "name": "Pies ligeros",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes +1 a tu Atributo de Movimiento."
+  },
+  {
+    "name": "Piloto",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Navegar o de Remar mientras recorres aguas inseguras.",
+    "att": "Ini",
+    "description": "Eres hábil en conducir navíos a través de aguas peligrosas. Si fallas en un Chequeo para recorrer aguas peligrosas, puedes invertir el resultado si ello resulta en un éxito; sin embargo, si lo haces no puedes anotarte más de +1 NE puesto que te das cuenta del peligro inminente en el último momento."
+  },
+  {
+    "name": "Pistolero experto",
+    "max_val": "Bonificador por Destreza",
+    "tests": "",
+    "att": "Des",
+    "description": "Puedes recargar armas de pólvora negra con facilidad practicada. Sumas tantos NE como tu nivel en Pistolero experto a cualquier Chequeo Prolongado para recargar un arma de Pólvora negra."
+  },
+  {
+    "name": "Presencia imponente",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Mando",
+    "att": "Em",
+    "description": "Tu presencia llena a los demás de un asombro y una admiración profundos. Tal es tu aura de autoridad que los de un Estatus menor no pueden resistirse a tus pruebas de Mando con su Voluntad. Por supuesto, eso no hace que tus enemigos sean más proclives a respetarte y obedecerte, pero la gente común raramente se te enfrenta."
+  },
+  {
+    "name": "Primeros auxilios",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Sanar durante los Asaltos de combate",
+    "att": "I",
+    "description": "Estas acostumbrado a tratar heridas rápidamente. Si fallas un Chequeo de Sanar utilizando Vendas, puedes invertir el resultado si esto te representa un éxito; sin embargo, si lo haces, no puedes obtener más que +1 NE, puesto que te centras en la velocidad y no en la precisión."
+  },
+  {
+    "name": "Proyectil infalible",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Puedes llevar a cabo disparos apuntados de una precisión excepcional. Ignoras cualquier modificador negativo por Dificultad a los Chequeos de A distancia debidos al tamaño del objetivo."
+  },
+  {
+    "name": "Puntería",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Habilidad de proyectiles inicial (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Quijada de hierro",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "Chequeos de Aguante para no quedar Aturdido",
+    "att": "R",
+    "description": "Estás hecho de una pasta muy dura y puedes resistir incluso los golpes más fuertes. Cuando sufres 1 o más Estados de Aturdido puedes llevar a cabo de inmediato un Chequeo Desafiante (+0) de Aguante para evitarlo, y cada NE elimina 1 estado de Aturdido adicional."
+  },
+  {
+    "name": "Rata de túnel",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Movimiento silencioso cuando estás bajo tierra",
+    "att": "Ag",
+    "description": "Te sientes como en casa en túneles, alcantarillas y otros entornos subterráneos. Cuando utilizas Movimiento silencioso en un entorno subterráneo, quienes te rodean no tienen derecho a Chequeos de Percepción pasiva para detectarte; tan sólo pueden verte si están específicamente vigilando o buscando gente oculta."
+  },
+  {
+    "name": "Recarga rápida",
+    "max_val": "Bonificador por Destreza",
+    "tests": "",
+    "att": "Des",
+    "description": "Puedes recargar armas a distancia con facilidad practicada. Sumas tantos NE como tu nivel en Recarga rápida a cualquier Chequeo para recargar un arma a distancia."
+  },
+  {
+    "name": "Recio",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "",
+    "att": "R",
+    "description": "Obtienes una suma permanente a tus Heridas igual a tu Bonificador por Resistencia. Si tu Bonificador por Resistencia se incrementa, también lo hace el número de Heridas que proporciona este Talento."
+  },
+  {
+    "name": "Reflejos de combate",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "",
+    "att": "Ini",
+    "description": "Reaccionas como el fogonazo de un relámpago. Suma 10 a tu Iniciativa por cada nivel en este Talento cuando determinas la Iniciativa de Combate."
+  },
+  {
+    "name": "Reflejos rápidos",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica inicial de Agilidad (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Resistencia (Amenaza)",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "Todos los utilizados para resistirse a la Amenaza asociada",
+    "att": "R",
+    "description": "Tu recia constitución te permite sobrevivir con más facilidad a una amenaza específica. Puedes tener éxito automáticamente en el primer Chequeo para resistir la amenaza específica, como por ejemplo Magia, Veneno, Enfermedad o Mutación en cada sesión de juego. Si el NE es importante, utiliza tu Bonificador por Resistencia como NE para el Chequeo."
+  },
+  {
+    "name": "Resistencia a la magia",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "",
+    "att": "R",
+    "description": "El NE de cualquier hechizo que te afecta se reduce en 2 por cada punto que tienes en este Talento. El NE de un hechizo sólo lo modifica el talento de Resistencia a la magia mayor de los que puede haber en su área objetivo.. Además, nunca podrás aprender los Talentos Magia arcana, Bendecir, Invocar, Magia menor o ¡Brujo!"
+  },
+  {
+    "name": "Resuelto",
+    "max_val": "Bonificador por Fuerza",
+    "tests": "",
+    "att": "F",
+    "description": "Te lanzas a atacar con sobria determinación. Sumas tu nivel de Resuelto a tu Bonificador por Fuerza cuando cargas."
+  },
+  {
+    "name": "Rico",
+    "max_val": "No",
+    "tests": "",
+    "att": "",
+    "description": "Eres fabulosamente rico y raramente vas corto de dinero. Cuando Ganas dinero (incluyendo las Empresas de Salario ) consigues +1 corona de oro por cada vez que has adquirido este Talento."
+  },
+  {
+    "name": "Robusto",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "",
+    "att": "R",
+    "description": "Eres tan coriáceo como unas botas viejas, y absorbes el daño como si nada. Reduces todo el Daño que sufres en un +1 adicional por cada vez que has adquirido el Talento Robusto, incluso si el daño no puede ser reducido de la forma normal, pero aun así sufres un mínimo de 1 Herida de cualquier fuente de Daño."
+  },
+  {
+    "name": "Sabio (Saber)",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Sabiduría académica (Saber elegido)",
+    "att": "I",
+    "description": "Eres excepcionalmente docto, y tienes un grado significativo de conocimiento especializado en un único campo de estudio. Automáticamente conoces tantos fragmentos de información correcta como tu nivel de Sabio (Saber) acerca de un tema relevante sin tener que chequear tu Habilidad de Sabiduría académica. Un Chequeo, como siempre, proporcionará más información de la forma habitual, según determine el DJ."
+  },
+  {
+    "name": "Sangre fría",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica de Voluntad inicial, que no cuenta contra tus Avances."
+  },
+  {
+    "name": "Sangre noble",
+    "max_val": "1",
+    "tests": "Cualquier Chequeo influenciado por tu Estatus",
+    "att": "",
+    "description": "O bien naciste en la nobleza o bien fuiste elevado a la misma debido a acontecimientos del juego. Suponiendo que te vistas de la forma apropiada, siempre se te considerará de un Estatus superior a los demás, a menos que ellos tengan también el Talento Sangre noble , en cuyo caso el Estatus se comparará de la forma habitual."
+  },
+  {
+    "name": "Sentidos desarrollados",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Percepción (sentido)",
+    "att": "Ini",
+    "description": "Uno de tus cinco sentidos principales está muy desarrollado, lo que te permite ver lo que otros no ven. Podrás llevar a cabo Chequeos de Percepción para detectar detalles normalmente imperceptibles con el sentido asociado, tal y como indique el DJ. Esto podría incluir: divisar a un águila más allá del alcance visual de todos los demás, oler un veneno casi inodoro, oír la respiración de un ratón inmóvil en el interior de una pared, reconocer una letra desgastada en un grabado o detectar que dos cervezas de una misma cervecería proceden de barriles diferentes."
+  },
+  {
+    "name": "Sentir magia",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Intuición para detectar a los hechiceros",
+    "att": "Ini",
+    "description": "Eres capaz de detectar en los demás los Vientos de la Magia. Puedes intentar un Chequeo Normal (+20) de Intuición al encontrarte con un hechicero. Si lo consigues, detectas que el objetivo es un hechicero. Además, si consigues un Éxito asombroso (+6), también puedes determinar la mayor Especialización en Canalización del objetivo."
+  },
+  {
+    "name": "Sexto sentido",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Intuición que implican tu Sexto sentido",
+    "att": "Ini",
+    "description": "Tienes una extraña sensación cuando te ves amenazado, y puedes reaccionar en consecuencia. El DJ puede avisarte de que vas directo al peligro; esto normalmente sucederá después de que haga un Chequeo secreto de Intuición en tu beneficio. Además, si consigues un Chequeo de Intuición puedes ignorar la Sorpresa."
+  },
+  {
+    "name": "Sin importancia",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Movimiento silencioso si estás a plena vista",
+    "att": "Em",
+    "description": "Los mandamases no prestan atención alguna a tu presencia, sabiendo que estás muy por debajo de su nivel. Suponiendo que vayas correctamente vestido y no estés en una posición incongruente, aquellos de un Grado de Estatus superior tenderán a ignorarte a menos que tu presencia se convierta en inapropiada, lo que facilitará que oigas conversaciones que quizás no deberías. Además, los personajes de un Grado de Estatus superior al tuyo no obtienen ventaja alguna golpeándote o hiriéndote en combate, puesto que no hay nada que ganar derrotando a un perro callejero tan bajo como tú."
+  },
+  {
+    "name": "Sobornador",
+    "max_val": "Bonificador por Empatía",
+    "tests": "Sobornar",
+    "att": "Em",
+    "description": "Tu capacidad para sobornar es excelente. El DJ debería reducir el coste base de cualquier soborno requerido en un 10% por nivel que tengas en Sobornador , hasta un mínimo del 10% del importe original."
+  },
+  {
+    "name": "Sombra",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Cualquier Chequeo que implique hacer un Seguimiento",
+    "att": "Ag",
+    "description": "Eres hábil en seguir a la gente sin ser visto. Puedes utilizar las reglas de Seguimiento sin tener que llevar a cabo un Chequeo Combinado. En vez de eso, chequeas simplemente tu Percepción o tu Habilidad de Movimiento silencioso, la mayor de las dos."
+  },
+  {
+    "name": "Suerte",
+    "max_val": "Bonificador por Empatía",
+    "tests": "",
+    "att": "Em",
+    "description": "Dicen que cuando naciste, Ranald sonrió. El número máximo de tus Puntos de Fortuna es ahora igual a tu número actual de puntos de Destino, más el número de veces que has adquirido Suerte."
+  },
+  {
+    "name": "Tenaz",
+    "max_val": "Bonificador por Resistencia",
+    "tests": "Chequeos de Aguante para soportar las adversidades",
+    "att": "R",
+    "description": "Nunca te das por vencido, por imposibles que parezcan las tareas a las que te enfrentas. Puedes doblar la longitud del tiempo que los Chequeos de Aguante te permiten soportar una adversidad. Esto incluye soportar un período prolongado de monta, la exposición a los elementos, los rituales y otras adversidades similares."
+  },
+  {
+    "name": "Tono perfecto",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Animar (cantar), Hablar idioma (idiomas tonales, como el eltharin, el catayano y el de la magia)",
+    "att": "Ini",
+    "description": "Tienes un tono perfecto, y eres capaz de reproducir las notas perfectamente e identificarlas sin ni siquiera llevar a cabo un Chequeo. Además, añade Animar (cantar) a cualquier Carrera en la que entras; si ya está en la misma, en vez de eso puedes comprar la Habilidad a razón de 5 PX menos por Avance."
+  },
+  {
+    "name": "Viajero curtido",
+    "max_val": "Bonificador por Inteligencia",
+    "tests": "Cualquier Chequeo de Sabiduría académica que tenga que ver con detalles locales",
+    "att": "I",
+    "description": "Eres una persona inquisitiva y que ha viajado mucho, averiguando todo tipo de informaciones locales. Añade Sabiduría académica (local) a cualquier Carrera en la que entra; si ya está en la Carrera, puedes comprar la Habilidad otra vez (una especialidad diferente cada vez, como por ejemplo Altdorf, Vorbergland o Ubersreik) a razón de 5 PX menos por Avance."
+  },
+  {
+    "name": "Vigilancia",
+    "max_val": "1",
+    "tests": "",
+    "att": "",
+    "description": "Obtienes un bonificador +5 permanente a tu Característica inicial de Iniciativa (esto no cuenta contra tus Avances)."
+  },
+  {
+    "name": "Visión nocturna",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Percepción en condiciones de poca luz",
+    "att": "Ini",
+    "description": "Puedes ver muy bien en la oscuridad natural. Suponiendo que tengas por lo menos una fuente de luz débil (como por ejemplo la de las estrellas, la de la luna o la bioluminiscencia) puedes ver con claridad a 20 yardas por nivel de Visión nocturna . Además, puedes extender la distancia de iluminación efectiva de cualquier fuente de luz en 20 yardas por nivel de Visión nocturna."
+  },
+  {
+    "name": "Visiones sagradas",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Chequeos de Intuición cuando estás en terreno sagrado",
+    "att": "Ini",
+    "description": "Puedes ver claramente las grandes obras de los dioses a tu alrededor. Sabes automáticamente cuándo entras en terreno sagrado y puedes llevar a cabo un Chequeo de Intuición para obtener visiones (a menudo oscuras, y vistas a través del paradigma de tu culto o de tu sistema de creencias individual) respecto a la zona local si en ella han tenido lugar en el pasado acontecimientos significativos."
+  },
+  {
+    "name": "Vista excelente",
+    "max_val": "Bonificador por Iniciativa",
+    "tests": "Cualquier Chequeo para seguir rastros o capturar caza",
+    "att": "Ini",
+    "description": "Eres un cazador experto y conoces las mejores técnicas para encontrar caza. Cuando viajas a través de tierras bien provistas, se supone que eres automáticamente capaz de cazar lo suficiente como para alimentarte a ti mismo y a tantos otros como tu nivel en Vista excelente , si dispones de tiempo y del equipo correcto."
+  },
+  {
+    "name": "Voluntad de hierro",
+    "max_val": "Bonificador por Voluntad",
+    "tests": "Chequeos de Frialdad para enfrentarse a Intimidar",
+    "att": "V",
+    "description": "Tienes una voluntad indomable y jamás te inclinarás voluntariamente ante otro. El uso de la Habilidad Intimidar no te causa Miedo, y no te impide manifestar tu oposición al intimidador."
+  },
+  {
+    "name": "Zancadas (Terreno)",
+    "max_val": "Bonificador por Agilidad",
+    "tests": "Chequeos de Atletismo para atravesar el Terreno",
+    "att": "Ag",
+    "description": "Estás versado en atravesar terreno difícil. Ignoras todos los penalizadores al movimiento al atravesar o recorrer un terreno específico. Las especialidades típicas incluyen: costero, desiertos, marismas, rocoso, tundra o bosques."
+  }
+]

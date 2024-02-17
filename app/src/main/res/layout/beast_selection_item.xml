@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/beast_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/beast_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/beast_cb"
+        android:layout_alignBottom="@id/beast_cb"
+        android:layout_toStartOf="@id/linearLayout"
+        android:layout_toEndOf="@id/beast_cb"
+        android:gravity="center_vertical"
+        android:text="PATATA"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/rest_beast_quantity_fi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:tint="@color/grey_light"
+            android:translationX="10dp"
+            app:backgroundTint="@color/grey_light"
+            app:fabCustomSize="20dp"
+            app:maxImageSize="14dp"
+            app:srcCompat="@drawable/ic_baseline_horizontal_rule_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/beast_quantity_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_beast_quantity_fi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:scaleType="center"
+            android:tint="@color/grey_light"
+            android:translationX="-10dp"
+            app:backgroundTint="@color/grey_light"
+            app:fabCustomSize="20dp"
+            app:maxImageSize="14dp"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

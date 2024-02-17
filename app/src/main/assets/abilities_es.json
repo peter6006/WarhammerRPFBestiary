@@ -1,0 +1,317 @@
+[
+  {
+    "name": "A distancia (Especialidad)",
+    "att": "HP",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Si bien cualquiera puede tirar una piedra utilizando simplemente su Habilidad de proyectiles, hacen falta entrenamiento y práctica para utilizar armas como arcos y pistolas. Cada Especialización A distancia es específica para un grupo de armas a distancia. Si no tienes la Especialización A distancia para un arma que quieres utilizar, consulta qué penalizadores vas a sufrir al utilizarla.\nEspecializaciones: arco, arrojadizas, ballesta, enmarañar, explosivos, honda, ingeniería, pólvora negra..."
+  },
+  {
+    "name": "Actuar (Especialidad)",
+    "att": "Ag",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Has aprendido un arte físicamente exigente, quizá como forma de ganarte la vida, quizá como artista callejero o como componente de una feria ambulante. Un uso con éxito de la Habilidad Actuar te permite entretener a todos los parroquianos que están suficientemente cerca como para verte y oírte; el NE indica lo bien que lo has hecho. En combate, ciertas especializaciones físicas de Actuar te pueden conceder alguna ventaja. Con permiso de tu DJ, Actuar (acrobacias) se puede utilizar en vez de Esquivar. Otras Habilidades de Actuar pueden resultar útiles para distraer a tus enemigos, concediéndote quizá una Ventaja si se te puede ocurrir una forma creativa de hacerlo. Y algunas habilidades de Actuar se pueden utilizar directamente como armas si dispones de los accesorios adecuados, ¡como por ejemplo Actuar (tragafuegos)!\nEspecializaciones: acrobacias, baile, funambulismo, malabarismo, mimo, payasadas, tragafuegos"
+  },
+  {
+    "name": "Adiestrar Animales (Especialidad)",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Adiestrar animales representa tu comprensión de un tipo de animal en particular y tu capacidad para entrenarlo. Un uso con éxito de la Habilidad te permite identificar las aptitudes Adiestradas que tiene un animal que pertenece a tu Especialización. La Habilidad Adiestrar animales también te permite elegir la Empresa Adiestrar animales entre aventuras.\nEn combate, un Chequeo con éxito Enfrentado de Adiestrar animales/Voluntad te permite intimidar a un solo animal que pertenece a tu Especialización; causas Miedo en el animal objetivo hasta el final de tu siguiente turno. Cuando causas Miedo de esta forma, puedes utilizar subsiguientemente tu Habilidad de Adiestrar animal en lugar de Cuerpo a cuerpo cuando te defiendes contra tu objetivo; con la aprobación de tu DJ también puedes usar Adiestrar animal para atacar a tu objetivo impartiendo órdenes específicas.\nEspecializaciones: caballo, palomo, pegaso, perro, semigrifo..."
+  },
+  {
+    "name": "Aguante",
+    "att": "R",
+    "group": "básica",
+    "grouped": false,
+    "text": "La Habilidad Aguante se utiliza cuando tienes que sobreponerte a dificultades, resistir privaciones, sentarte sin moverte durante largos períodos de tiempo o sobrevivir en entornos hostiles. En particular, el Aguante se Chequea para resistir o recuperarse de diversos Estados y te ayuda a recuperar Heridas."
+  },
+  {
+    "name": "Animar (Especialidad)",
+    "att": "Em",
+    "group": "básica",
+    "grouped": true,
+    "text": "Te permite deleitar a las multitudes mediante la palabra hablada, quizás cantando, actuando o incluso explicando unos cuantos chistes. Un uso con éxito de la Habilidad Animar significa que has animado a los parroquianos que están lo suficientemente cerca de ti como para oírte; el NE indica lo bien que lo has hecho. En combate es poco probable que Animar sea muy útil, aunque se te puede ocurrir una forma interesante de utilizar Animar (actuar) para confundir o engañar a tus oponentes.\nEspecializaciones: actuar, cantar, comedia, relatar"
+  },
+  {
+    "name": "Arte (Especialidad)",
+    "att": "Des",
+    "group": "básica",
+    "grouped": true,
+    "text": "Creas obras de arte en el medio por ti elegido. Carecer de acceso a las Herramientas del oficio apropiadas impone un penalizador a tu Chequeo. El NE conseguido determina la calidad del objeto final. Para obras de arte complicadas o grandes se puede requerir un Chequeo Prolongado. La Habilidad Arte tiene poco uso en combate, pero los bustos de mármol son unas armas improvisadas maravillosas.\nEspecializaciones: cartografía, escultura, grabado, mosaico, pintura, tatuajes, tejido"
+  },
+  {
+    "name": "Atletismo",
+    "att": "Ag",
+    "group": "básica",
+    "grouped": false,
+    "text": "Tu capacidad de correr, saltar y moverte con rapidez o elegancia, y para llevar a cabo cualquier actividad física en general. Consulta Movimiento para detalles sobre cómo usar el Atletismo para moverse en combate."
+  },
+  {
+    "name": "Canalización (Especialidad)",
+    "att": "V",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "La habilidad Canalización mide tu capacidad para llamar y controlar a los diversos Vientos de la Magia y solamente se utiliza mediante las reglas de magia. La canalización es una habilidad especial que a la vez es de Grupo, permitiendo Especializaciones, y no lo es para quienes no han sido adecuadamente entrenados para canalizar magia. Consulta el Capítulo 8: Magia para detalles sobre lo antedicho.\nEspecializaciones: Aqshy, Azyr, Chamon, Dhar, Ghur, Ghyran, Hysh, Shyish, Ulgu..."
+  },
+  {
+    "name": "Carisma",
+    "att": "Em",
+    "group": "básica",
+    "grouped": false,
+    "text": "El Carisma hace que la gente tenga una idea favorable de ti, de tus opiniones y de las acciones que propones. Conseguir un Chequeo Enfrentado de Carisma/Frialdad te permite influenciar el comportamiento de uno o más objetivos, hasta un número máximo igual a tu Bonificador por Empatía + NE, que afecta primero a quienes tienen la Voluntad más baja. Si un objetivo es proclive a tu Carisma, el Chequeo no es Enfrentado.\nTu DJ te puede permitir el uso del Carisma en Combate si cree que tus enemigos pueden ser susceptibles a que ruegues por tu vida o seas capaz de presentar argumentos persuasivos para detener la violencia (¡aunque te deseamos suerte si quieres utilizar el Carisma con un goblin!)\nSi utilizas el Carisma como tu Acción, calcula de la forma habitual el número de objetivos afectados. Si lo usas para defenderte, sólo afectas a tu atacante. Si tienes éxito, ninguno de los objetivos afectados te ataca este asalto y obtienes +1 Ventaja como es habitual. Puedes seguir así en asaltos sucesivos hasta que decides dejar de hacerlo o fallas un Chequeo de Carisma, tras lo cual tus palabras dejan de tener peso."
+  },
+  {
+    "name": "Carisma animal",
+    "att": "V",
+    "group": "básica",
+    "grouped": false,
+    "text": "Es tu aptitud para hacer amistad con los animales, calmarlos rápidamente o subyugarlos.\nConseguir un Chequeo de Carisma animal te permite influenciar el comportamiento de uno o más animales, hasta un máximo de tu Bonificador por Voluntad + NE. Si los animales objetivo son dóciles por naturaleza, este Chequeo podría ser no enfrentado, pero en general será Enfrentado a la Voluntad del objetivo.\nEn combate, puedes utilizar Carisma animal al enfrentarte con animales. Si tienes éxito, ningún objetivo afectado te ataca en ese asalto y obtienes +1 Ventaja. Puedes repetirlo en asaltos sucesivos hasta que decides dejar de hacerlo o fallas un Chequeo de Carisma, tras lo cual el instinto de la criatura toma el control y ya no puedes influenciarla."
+  },
+  {
+    "name": "Conducir",
+    "att": "Ag",
+    "group": "básica",
+    "grouped": false,
+    "text": "Conducir te permitirá guiar vehículos (los más comunes, simples carretas y torpes diligencias, por no mencionar algunas de las creaciones más ‘experimentales’ de los Ingenieros Imperiales) por los caminos del Imperio con tan pocos incidentes como te sea posible.\nEn circunstancias normales, si tienes la Habilidad no te hacen falta Chequeos. Si las condiciones son menos que ideales (quizás la carretera está en mal estado o el tiempo es inclemente) se puede necesitar un Chequeo de Conducir. Si no tienes la Habilidad de Conducir, se te puede requerir un Chequeo incluso para las maniobras más básicas.\nUn Fracaso Asombroso (-6) en un Chequeo de Conducir significa que algo malo te sucede.\nEstrellarse: los ocupantes de los vehículos que se Estrellan suelen sufrir 2d10 Heridas, modificadas por el Bonificador por Resistencia y los puntos de Armadura, a menos que el vehículo se estuviera moviendo lentamente (a juicio del DJ). Los vehículos Estrellados tiene que repararlos alguien con la Habilidad de Oficio adecuada, del tipo Oficio (carpintero) u Oficio (carretero) Las ruedas de repuesto las puede montar cualquiera mediante un Chequeo de Conducir o uno del Oficio apropiado.\nEn combate, Conducir puede utilizarse si las circunstancias lo permiten, por ejemplo si el grupo está en una diligencia asaltada por forajidos, si quieres cargar contra un enemigo o huír de él."
+  },
+  {
+    "name": "Consumir alcohol",
+    "att": "R",
+    "group": "básica",
+    "grouped": false,
+    "text": "Tu capacidad para soportar el alcohol sin dejar que nuble tu juicio o te deje inconsciente.\nDespués de cada bebida alcohólica haz un Chequeo de Consumir alcohol, modificado por la potencia de la bebida. Por cada Chequeo que falles, sufrirás un penalizador -10 a HA, HP, Ag, Des e I, hasta un máximo de -30 por Característica. Una vez hayas fallado tantos Chequeos como tu Bonificador por Resistencia estarás borracho como una cuba.\nTras no beber durante una hora, haz un Chequeo Desafiante (+0) de Consumir alcohol. Los efectos de estar borracho se pasan al cabo de tantas horas como 10 - NE, y al cabo de ese tiempo se pierden todos los modificadores a las características debidos a estar borracho. Una vez se pasan todos los efectos, haz otro Chequeo Desafiante (+0) de Consumir alcohol. Ahora tienes resaca, que es un Estado de Fatiga que no se puede eliminar hasta que pasan tantas horas como 5 - NE. Puedes gastar 1 punto de Resolución para ignorar los modificadores negativos de estar borracho hasta el final del siguiente asalto."
+  },
+  {
+    "name": "Cotilleo",
+    "att": "Em",
+    "group": "básica",
+    "grouped": false,
+    "text": "Puedes averiguar rápidamente las noticias más interesantes y útiles, y extender rumores propios. Un Chequeo con éxito de Cotilleo significa que has encontrado un fragmento de información útil, que el DJ te puede proporcionar, acerca de la zona en la que estás. Cada NE, o bien te ofrece un fragmento adicional de información o la probabilidad de extender un rumor a tantos individuos como tu Bonificador por Empatía. El tiempo que requiere un Chequeo de Cotilleo depende de lo cautelosos que son los jugadores y de lo bulliciosa que es la zona, a determinar por el DJ.\nEs poco probable que Cotilleo vea mucho uso en combate, pero si se junta que tu atacante es local y que conoces algo realmente jugoso..."
+  },
+  {
+    "name": "Criar animales",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "La Habilidad Criar animales te permite atender y cuidar animales, así como curarlos si caen enfermos o resultan heridos. Tener un solo Avance en Criar animales significa que puedes mantenerlos lo suficientemente sanos sin tener que Chequear. También puedes hacer un Chequeo de Criar animales para identificar y resolver problemas de estos como por ejemplo:\n• Detectar una enfermedad.\n• Entender las razones tras un malhumor o malestar.\n• Determinar la calidad del animal.\n• Sanar tantas Heridas como tu Bonificador por Inteligencia + NE (Nota: un animal sólo puede beneficiarse de una tirada curativa después de cada encuentro).\n• Detener un estado de Sangrando.\n• Preparar al animal para ser exhibido.\nEn combate, puedes calibrar a un animal enemigo con un Chequeo de Criar animales. Si tienes éxito, todos a quienes informas y tú obtenéis un +10 al impacto al atacar a dicho animal (o a cualquiera que lo usa como montura) hasta el final de tu siguiente turno, al divisar unos arreos mal apretados, una cojera de una antigua herida o cualquiera otra debilidad o vulnerabilidad. Criar animales sólo puede proporcionar un máximo de +10 al impacto por animal, no importa cuántos Chequeos se hagan en busca de debilidades."
+  },
+  {
+    "name": "Cuerpo a cuerpo (Especialidad)",
+    "att": "HA",
+    "group": "básica",
+    "grouped": true,
+    "text": "La Habilidad Cuerpo a cuerpo representa un entrenamiento específico en un solo tipo de armas de combate cerrado. Cada Especialización en Cuerpo a cuerpo indica un entrenamiento en el uso de una clase de arma específica. Si no dispones de la Especialización correcta para un arma que quieres usar, consulta la entrada del arma adecuada para ver los penalizadores que sufres.\nEspecializaciones: arma a dos manos, arma de asta, básico, caballería, esgrima, mayales, parada, pelea"
+  },
+  {
+    "name": "Escalar",
+    "att": "F",
+    "group": "básica",
+    "grouped": false,
+    "text": "La aptitud para ascender por superficies empinadas o verticales. Si el tiempo no apremia y escalar es relativamente fácil, se supone que todo el que tenga esta Habilidad será capaz de escalar una altura razonablemente pequeña.\nPara cualquier otra escalada, que también se ocupa de Escalar en combate. Te puedes ver incluso escalando a oponentes grandes, aunque la prudencia de hacerlo es sumamente discutible."
+  },
+  {
+    "name": "Esquivar",
+    "att": "Ag",
+    "group": "básica",
+    "grouped": false,
+    "text": "Esquivar es la capacidad de evitar cosas agachándote, tirándote al suelo y moviéndote rápidamente, y se usa extensamente para apartarte del camino de unas piedras que caen, evitar la trayectoria de las armas, sortear trampas inesperadas y cosas similares.\nEn combate, Esquivar se suele usar para resistir ataques o evitar daño."
+  },
+  {
+    "name": "Forzar cerraduras",
+    "att": "Des",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Conoces los mecanismos de las cerraduras y cómo abrirlas sin la llave. Forzar una cerradura es a menudo un Chequeo Prolongado, en el que el número requerido de NE para abrir la cerradura depende de la complejidad de la misma."
+  },
+  {
+    "name": "Frialdad",
+    "att": "V",
+    "group": "básica",
+    "grouped": false,
+    "text": "La Frialdad te permite permanecer tranquilo cuando estás bajo presión, resistir el miedo cuando te enfrentas al horror y aferrarte a tus convicciones.\nLa Frialdad se suele usar para resistir a otras Habilidades (Carisma, Intimidar y parecidas), pero también se puede requerir que hagas un Chequeo de Frialdad al enfrentarte con algo que te intenta obligar a hacer algo que no quieres. La Frialdad es también la Habilidad principal utilizada para limitar la Psicología."
+  },
+  {
+    "name": "Hablar idioma (Especialidad)",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "La Habilidad de Hablar un idioma te concede acceso a idiomas adicionales además de tu lengua natal. Se supone que todos los personajes son capaces de hablar el reiklandés (el idioma del Imperio) y su lengua nativa (si tu personaje tiene una diferente al reiklandés), sin tener que llevar a cabo Chequeo alguno. Si tu partida no está ambientada en el Imperio, reemplaza el reiklandés por el idioma local.\nSi tienes una Habilidad de Hablar idioma, en general eres capaz de hacerte entender en dicho idioma, o de entender conceptos sencillos. Se te pedirá que Chequees tu Habilidad de Hablar idioma cuando tengas que transmitir un concepto particularmente difícil, o se emplee un dialecto o vocabulario oscuro. Nota: Hablar idioma (magia) se utiliza para lanzar hechizos y ocasionalmente puede ser Chequeado... con consecuencias poco agradables si se falla.\nEspecializaciones: bretoniano, gremial, khazalid, ladrón, lengua de batalla, magia, tileano, viejomundano clásico"
+  },
+  {
+    "name": "Intimidar",
+    "att": "F",
+    "group": "básica",
+    "grouped": false,
+    "text": "Te permite coaccionar o asustar a criaturas inteligentes. La forma precisa de iniciar un Chequeo de Intimidar depende del contexto: si bien va generalmente acompañado de una amenaza abierta, a veces basta con una sutil implicación o incluso una mirada. Intimidar es casi siempre una Habilidad Enfrentada a la Frialdad de tu objetivo; si tienes éxito, puedes intimidar tantos objetivos como tu Bonificador por Fuerza + NE. Cada uno reaccionará a Intimidar basándose en su personalidad individual y en el éxito que hayas tenido al amenazarlo pero, en todos los casos, retrocederá, se saldrá del paso sin hacerte frente o, alternativamente, aceptará que el combate es la única forma de resolver el incidente y preparará sus armas.\nEn combate, causas Miedo (ver pág. 190) a todos los objetivos Intimidados. También puedes utilizar tu Habilidad de Intimidar en lugar de Cuerpo a cuerpo cuando te defiendes contra quienes tienen miedo de ti, haciendo que los Intimidados se retiren del área simplemente mediante tu voluntad y tu actitud. Además, con la aprobación de tu DJ, podrías utilizar Intimidar para ‘atacar’ a dichos objetivos, dándoles órdenes específicas del tipo ‘tirad las armas’ o ‘¡largaos de aquí!’. Sin embargo, si fallas en cualquiera de estos Chequeos de Intimidar subsiguientes, ya no Intimidas (o causas Miedo) en los oponentes afectados. Con permiso de tu DJ, puedes intentar Intimidarles de nuevo en un Asalto posterior, pero eso implicará un modificador negativo puesto que es menos probable que te teman una vez hayan calibrado que lo tuyo es mera bravuconería."
+  },
+  {
+    "name": "Intuición",
+    "att": "Ini",
+    "group": "básica",
+    "grouped": false,
+    "text": "La Habilidad Intuición te permite hacerte una idea de lo que te rodea, lo que te lleva a darte cuenta de cuándo algo anda mal, además de permitirte adivinar si te están escondiendo algo. Un uso con éxito de la Habilidad Intuición te proporciona información sutil o implícita relativa a tu entorno, determinada por tu DJ. Puede tratarse de información del tipo saber que alguien se cree lo que está diciendo, cuál es la actitud general hacia el noble local o si los motivos de los lugareños solícitos son tan puros como parecen. Si alguien intenta activamente ocultar sus intenciones, puede resistir a tu Intuición con Frialdad o Animar (actuar).\nEn combate, se puede utilizar un Chequeo con éxito de Intuición para concederte +1 Ventaja mientras sopesas el entorno y tus oponentes. Podrás continuar acumulando Ventaja en turnos subsiguientes mientras seas capaz de observar a tus objetivos sin ser interrumpido (es decir, sin ser atacado); de esta forma puedes obtener una ventaja máxima igual a tu Bonificador por Inteligencia."
+  },
+  {
+    "name": "Investigar",
+    "att": "Ini",
+    "group": "básica",
+    "grouped": false,
+    "text": "Lo fácil que te resulta extraer conocimientos útiles y frecuentemente oscuros de bibliotecas y otros depósitos de información similares. Investigar requiere que dispongas del talento Leer y Escribir.\nTener simplemente la Habilidad de Investigar indica que puedes encontrar información directa de una biblioteca bien indexada sin llevar a cabo un Chequeo, si dispones de tiempo suficiente. Si buscas información específica y menos conocida, o tienes prisa, se te requerirá llevar a cabo un Chequeo Prolongado de Investigar, cuya Dificultad vendrá modificada por el tamaño de la biblioteca, y el NE objetivo dependerá de lo oscuro que sea el tema.\nInvestigar apenas tiene uso en combate, excepto quizá para ayudarte a encontrar un manual útil sobre técnicas de manejo de la espada."
+  },
+  {
+    "name": "Jugar",
+    "att": "I",
+    "group": "básica",
+    "grouped": false,
+    "text": "Te permite calcular la probabilidad de que una apuesta resulte ganadora, así como participar con éxito en diversos juegos de azar.\nPara representar una partida de un juego de azar, todos los jugadores llevan a cabo un Chequeo de Jugar (aplicando cualquier modificador apropiado debido a la familiaridad con dicho juego) y el jugador con el NE más alto gana. En caso de empate, los jugadores con puntuación menor son descartados y los que quedan hacen un nuevo Chequeo de Jugar, repitiendo el proceso hasta tener un ganador.\nSi quieres influenciar la partida mediante mecánicas menos honestas, consulta Prestidigitación."
+  },
+  {
+    "name": "Lengua secreta (Especialidad)",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Te han enseñado el uso de marcas clandestinas, que sólo son inteligibles para los miembros de un selecto grupo. Hay todo tipo de razones por las que alguien querría dejar un mensaje secreto: un vagabundo podría querer indicar qué propietarios de casas son más proclives a dar limosna, un ladrón podría señalar debilidades o posibles objetivos, mientras que un explorador podría querer prevenir a otros de que en las cercanías se encuentra el cubil de un monstruo peligroso.\nEsta Habilidad no suele requerir de muchos Chequeos y si la tienes puedes descifrar cualquier signo apropiado cuando lo ves. Pero si los signos han sido alterados, se han desgastado o si tienes poco tiempo, lo más probable es que se te requiera un Chequeo. La mayor parte de los mensajes son muy simples, sin más de tres palabras.\nEspecializaciones: batidor, expedicionario, gremio (cualquiera), ladrón, Orden Gris, vagabundo..."
+  },
+  {
+    "name": "Mando",
+    "att": "Em",
+    "group": "básica",
+    "grouped": false,
+    "text": "Una medida de tu capacidad para dirigir a otros y ganarte su respeto. Si bien en la mayoría de casos se asocia con situaciones marciales, un líder resuelto puede organizar rápidamente la actuación contra un incendio o a otra calamidad parecida, y los nobles utilizan frecuentemente esta Habilidad para dar órdenes a sus subordinados.\nUn Chequeo con éxito de Mando te permite dar órdenes a tantos objetivos como tu Bonificador por Empatía más NE. Si los objetivos son subordinados naturales tuyos (un noble dando órdenes a sus siervos, o un sargento dando órdenes a sus tropas), las órdenes no suelen tener oposición. Si no existe jerarquía natural alguna, o si la orden es particularmente desafiante (como por ejemplo ordenar a tus soldados cargar de frente contra una hidra) el Chequeo es Enfrentado a la Frialdad de tu objetivo. En combate, puedes utilizar Mando para animar a tus subordinados. Un Chequeo con éxito de Mando confiere un bonificador +10 a todos los Chequeos de Psicología hasta el final del siguiente asalto.\nAdemás, el Mando se puede utilizar para transferir Ventaja a los aliados capaces de oírte; tras un Chequeo con éxito de Mando, puedes transferir una Ventaja a un aliado a tu elección, +1 Ventaja adicional por NE obtenido, que puede ir igualmente a cualquier aliado de tu elección que puede oírte."
+  },
+  {
+    "name": "Montar (Especialidad)",
+    "att": "Ag",
+    "group": "básica",
+    "grouped": true,
+    "text": "Lo competente que eres montando un tipo de animales en particular; Montar (caballo), por ejemplo, te permite montar caballos, mulas, asnos y similares. Sólo tienes que llevar a cabo un Chequeo si haces algo que se sale de lo ordinario, como correr, hacer doma clásica, atravesar terreno peligroso o cargar al combate. De lo contrario, si tienes por lo menos un Avance en la Habilidad, se supone que eres capaz de ir por ahí sin necesidad de un Chequeo.\nSi vas a caballo, te mueves utilizando la estadística de Movimiento del mismo; si quieres correr, saltar o pasar por encima de algo, utilizas tu Habilidad de Montar, no el Atletismo. Si corres hacia algún lugar se te puede requerir un Chequeo Prolongado de Montar, donde el NE objetivo depende de la longitud del viaje, y el número de Chequeos indica cuánto tardas en llegar. Un Chequeo de Montar puede verse modificado por las condiciones ambientales y por el temperamento de tu montura.\nLa Habilidad de Montar se puede utilizar extensamente en combate. Consulta el Capítulo 5: Reglas, para más información sobre el combate montado.\nEspecializaciones: caballo, gran lobo, grifo, pegaso, semigrifo..."
+  },
+  {
+    "name": "Movimiento silencioso (Especialidad)",
+    "att": "Ag",
+    "group": "básica",
+    "grouped": true,
+    "text": "Te permite deslizarte en silencio y ocultarte en las sombras con más facilidad que la mayoría. El Movimiento silencioso suele ser Enfrentado a la Habilidad de Percepción de un oponente, y los Chequeos serán modificados según lo oscura o lo bien oculta que esté tu ruta, así como lo discretamente que vayas vestido. Un Fracaso Impresionante o Asombroso en un Chequeo de Movimiento silencioso es muy probable que atraiga la atención inmediata de los enemigos a los que intentabas evitar.\nEl Movimiento silencioso tiene muchas aplicaciones potenciales en combate, sobre todo para ocultarse en preparación a una Emboscada o bien para rodear a un oponente y poderlo atacar desde atrás. Por supuesto, también puedes utilizar la Habilidad para huir de un conflicto sin ser visto.\nEspecializaciones: rural, subterráneo, urbano"
+  },
+  {
+    "name": "Nadar",
+    "att": "F",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Tu capacidad para nadar en agua sin ahogarte. Si dispones de la Habilidad Nadar, se supone automáticamente que eres capaz de nadar libremente sin Chequeo alguno. Pero si te encuentras en corrientes fuertes, vas a la carrera o huyes de un tiburón de grandes dimensiones enviado por Stromfels, el Dios del Ahogamiento, se te requerirá un Chequeo. Éste puede verse modificado por el estado del agua, o por lo impedido que estés por tus ropas, tu armadura y otros accesorios.\nNadar sólo se utiliza en combate si estás luchando en el agua, donde reemplaza a Habilidades como Atletismo para gobernar el Movimiento. Si se requieren velocidades exactas, nadas a la mitad de tu Movimiento, utilizando las reglas normales de movimiento."
+  },
+  {
+    "name": "Navegar (Especialidad)",
+    "att": "Ag",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Tu capacidad para hacer funcionar y maniobrar un bajel de vela, incluyendo saber hacer nudos, manejar el timón, calcular la fuerza del viento y más. Suponiendo que dispongas de una tripulación suficiente y entrenada para tu embarcación, sólo tendrás que utilizar la Habilidad de Navegar cuando debas forzar la nave, o bien haciendo una carrera, sorteando bajíos particularmente peligrosos, luchando contra el mal tiempo o dificultades similares. Navegar con viento suave o pilotar un navío río abajo no requiere Chequeo alguno para quienes tienen esta Habilidad. La Habilidad también se puede utilizar para actividades relacionadas con la náutica, como atar nudos o atar a otros con nudos.\nComoquiera que dirigir una nave no es tan diferente de dirigir otra, disponer de cualquier Habilidad de Navegar hace que todas las demás Especialidades de Navegar sean Habilidades Básicas para ti.\nEspecializaciones: carabela, coca, fragata, gabarra, navío lobo"
+  },
+  {
+    "name": "Oficio (Especialidad)",
+    "att": "Des",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "La mayor parte de la gente en Reikland practica un oficio; incluso los aventureros a menudo tienen una carrera más fiable o respetable a la que recurrir entre episodios de excitación de los que ponen los pelos de punta y aflojan las tripas. La Habilidad Oficio representa tu capacidad para crear algo o proporcionar un servicio, así como tu conocimiento del saber relevante que rodea a tu oficio.\nDisponer de la Habilidad es suficiente para llevar a cabo de forma automática las tareas asociadas a tu Oficio, suponiendo que tengas los recursos y las herramientas adecuados. Tan sólo te hace falta Chequear tu Habilidad de Oficio si buscas crear algo rápidamente, si las condiciones son adversas o si buscas inventar o crear un objeto de gran calidad.\nA menudo los Chequeos de Oficio de este tipo son Prolongados, con el NE y el tiempo dependiendo del tamaño o de la escala de lo que se quiere conseguir preparar una comida rápida con Oficio (cocinero) para impresionar a un señor local implicará mucho menos tiempo que construir un buque de guerra con Oficio (carpintero naval).También podrías llevar a cabo un Chequeo de Oficio como si fuera de Sabiduría académica para determinar información relevante al Oficio en cuestión. En semejantes circunstancias, el DJ podría preferir el uso de la Inteligencia a la Destreza como característica base, aunque a menudo esto se ignora para no complicar el juego.\nSi bien la mayoría de Habilidades de Oficio tienen poca función en el combate, hay tantas como Oficios, y algunas podrían ser útiles dependiendo de las circunstancias. Por ejemplo, un Chequeo con éxito de Oficio (boticario) podría ser útil si estás luchando en una botica al permitirte identificar algunos productos químicos astringentes que lanzar contra tus enemigos. La Habilidad Oficio también se utiliza para llevar a cabo una Empresa de Artesanía.\nEspecializaciones: boticario, calígrafo, carpintero, cerero, cocinero, curtidor, embalsamador, herrero"
+  },
+  {
+    "name": "Orientación",
+    "att": "Ini",
+    "group": "básica",
+    "grouped": false,
+    "text": "La Orientación te permite circular sin problemas por las tierras salvajes utilizando puntos de referencia, cuerpos celestes o mapas. Tener la Habilidad de Orientación significa que sabes aproximadamente dónde estás, y puedes encontrar el camino entre puntos de referencia conocidos sin necesidad de Chequeo. Sólo se requiere un Chequeo si estás desorientado o te alejas bastante de los senderos más frecuentados, y un éxito te muestra la dirección correcta o te permite evitar contratiempos.\nSi te orientas en un viaje largo, tu DJ te puede pedir un Chequeo Prolongado de Orientación, modificado por las condiciones actuales, los puntos de referencia visibles y el acceso a información geográfica fiable. El NE requerido para el éxito depende de lo lejos que está el destino, y cada Chequeo representa entre una hora y un día de viaje, dependiendo de la naturaleza del mismo."
+  },
+  {
+    "name": "Percepción",
+    "att": "Ini",
+    "group": "básica",
+    "grouped": false,
+    "text": "Tu capacidad para detectar cosas con los sentidos: vista, oído, olfato, tacto y gusto, así como cualesquiera otros que puedas tener, como sentidos mágicos o no humanos. Tu DJ puede pedir un Chequeo de Percepción para detectar algo, como un movimiento tras los árboles, la presencia de una trampa o que alguien te sigue, modificado por lo fácil que es darse cuenta de ello. La Percepción también se utiliza para resistir intentos de ocultar cosas mediante Habilidades del tipo Prestidigitación o Movimiento silencioso.\nLa Percepción tiene múltiples usos en combate, los más comunes para darse cuenta de detalles importantes más allá de lo inmediatamente obvio acerca del entorno circundante y tus oponentes, a determinar por el DJ."
+  },
+  {
+    "name": "Poner trampas",
+    "att": "Des",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Desde un simple lazo o una trampa para osos, hasta ingenios más espectaculares como el Desgarrador de Ladrones de Von Grizzel, es poco probable que los personajes se aventuren mucho tiempo por el Viejo Mundo sin encontrarse con alguna trampa. La Habilidad Poner trampas mide tu aptitud para colocar y desactivar trampas de todo tipo. Se supone que cualquiera con esta Habilidad es capaz de activar y desactivar trampas si se le da tiempo suficiente. Sólo se suele requerir un Chequeo si se intenta utilizar la Habilidad rápidamente o bajo presión, o si la trampa es especialmente compleja.\nColocar o desactivar la mayoría de trampas requiere un Chequeo Normal (+20) de Poner trampas, pero los artilugios más complicados pueden requerir un Chequeo Prolongado, requiriendo varios NE a lo largo de múltiples asaltos."
+  },
+  {
+    "name": "Prestidigitación",
+    "att": "Des",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Te permite vaciar bolsillos, esconder objetos en la palma de la mano y llevar a cabo trucos menores de prestidigitación, así como hacer trampas en juegos de azar. Esta habilidad funciona típicamente Enfrentada a la Percepción de tu objetivo; un éxito significa que has conseguido esconder el objeto, vaciar el bolsillo o intercambiar las cartas, mientras que un Éxito Marginal (+0 a +1) podría sugerir que tu nefaria actividad ha despertado sospechas en tu oponente.\nTambién puedes utilizar la Prestidigitación para ‘ayudar’ a tu Habilidad de Jugar en los juegos de azar apropiados. Antes de cada mano (o similar, dependiendo del juego de que se trate) puedes intentar un Chequeo de Prestidigitación (que será Enfrentado si hay quien sospecha). Si tienes éxito, puedes invertir los dados de tu Chequeo de Jugar para dicho asalto si ello te proporciona un Éxito.\nSi fallas, tus oponentes no se quedarán cruzados de brazos... La Prestidigitación y el combate no se suelen mezclar, aunque los jugadores con inventiva pueden ser capaces de conjurar una impresionante distracción (si el DJ lo aprueba), obteniendo quizá Ventaja al hacer que una daga aparezca de la nada, sorprendiendo a un enemigo supersticioso."
+  },
+  {
+    "name": "Regatear",
+    "att": "Em",
+    "group": "básica",
+    "grouped": false,
+    "text": "Regatear te permite conseguir mejores tratos cuando negocias con los demás. En general, se utiliza para ver si consigues o no hacer un buen trato, y lo más común es que sea un Chequeo Enfrentado de Regatear. Específicamente, se puede utilizar mientras compras para obtener mejores precios. Para más información sobre esto, consulta el Capítulo 11: Guía del consumidor."
+  },
+  {
+    "name": "Remar",
+    "att": "F",
+    "group": "básica",
+    "grouped": false,
+    "text": "Tu pericia en empuñar un remo y mover un bote a través de las aguas. La Habilidad de Remar sólo se suele utilizar cuando se hacen carreras, cuando se atraviesan unos rápidos, cuando se evita desesperadamente a un pulpo de los lodazales o cualquier otra proeza similar, inusual o peligrosa. Se supone que todo el que tiene esta Habilidad es capaz de remar en un estanque o en un río de aguas lentas, sin necesidad de un Chequeo. Quienes carecen de la misma tienen que hacer un Chequeo para cualquier maniobra, excepto las más sencillas."
+  },
+  {
+    "name": "Rezar",
+    "att": "Em",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Tu capacidad para invocar o comunicarte de alguna otra forma con un dios.\nEn combate, y si tu DJ lo estima oportuno considerando las circunstancias y tu fe, puedes usar la habilidad de Rezar para meditar y centrar tu mente. Cada asalto que pasas rezando en combate (y consiguiendo un Chequeo de Rezar) te concede +1 Ventaja. De esta forma puedes obtener Ventajas adicionales, hasta un máximo de tu Bonificador por Empatía.\nAdemás, si tus enemigos entienden tu idioma y reconocen (y temen) a tu dios, el DJ puede permitirte usar Rezar en lugar de Intimidar."
+  },
+  {
+    "name": "Sabiduría académica (Especialidad)",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Tener una habilidad de Sabiduría académica significa que has recibido una educación formal o que has aprendido de alguna otra forma una rama de conocimiento especializado. Hacerlo supone que tienes una amplia comprensión de dicho conocimiento y que no te hace falta un Chequeo para que el DJ te proporcione hechos relevantes. Si buscas información específica y menos conocida, tendrás que hacer un Chequeo de Sabiduría académica, modificado por lo oscura que sea la información, con el NE indicando cuánto detalle recuerdas.\nEn combate, un Chequeo con éxito de Sabiduría académica te puede conceder +1 Ventaja si resulta apropiado (con la aprobación de tu DJ). Por ejemplo, Sabiduría académica (Geología) te puede resultar beneficioso si estás luchando en una caverna rocosa, y Sabiduría académica (Ingeniería) te puede ayudar si te enfrentas a un enemigo armado de un artilugio mecánico complejo. Puedes continuar acumulando Ventaja en turnos subsiguientes, si las circunstancias son adecuadas (a determinar por el DJ) y no se te interrumpe; por este método puedes obtener una Ventaja máxima igual a tu Bonificador por Inteligencia.\nEspecializaciones: Ciencias, Derecho, Geología, Heráldica, Historia, Ingeniería, Magia, Metalurgia, Teología"
+  },
+  {
+    "name": "Sanar",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Has sido adiestrado para ocuparte de heridas y de enfermedades. Un Chequeo con éxito de Sanar te permite hacer una de las siguientes cosas:\n• Diagnosticar una indisposición, infección o enfermedad.\n• Tratar una enfermedad.\n• Curar tantas heridas como tu Bonificador por Inteligencia + NE (Nota: un paciente sólo puede beneficiarse de una tirada de Sanar después de cada encuentro). Si se utilizan líquidos estériles o emplastos y vendajes apropiados, la herida no se infectará.\n• Detener 1 Estado de Sangrando, donde cada uno de los NE permite eliminar 1 Estado adicional de Sangrando\nUn Chequeo fallido de Sanar puede causar Heridas potencialmente (en lugar de curarlas) si tu Bonificador por Inteligencia + NE suma menos de 0. Con un Fracaso Asombroso, tu paciente contrae también una Infección leve.\nSi se administra a alguien que tiene una enfermedad, un Chequeo con éxito de Sanar también asegura que tú no contraes dicha enfermedad ese día. Cada NE impedirá también que un personaje adicional con el que se encuentre el paciente ese día contraiga la enfermedad. Por cada día completo que el paciente pase descansando bajo tus cuidados, la duración de la enfermedad se reducirá en 1, hasta un mínimo de 1.\nCiertas heridas requieren Cirugía; consulta el Talento Cirugía para más detalles. Para más información sobre cómo curar heridas, consulta Heridas en el Capítulo 5: Reglas. Tu DJ puede aplicar modificadores a los Chequeos de Sanar para reflejar la virulencia de la enfermedad, la adecuación de los Estados y los materiales, o la tensión de las circunstancias. Si curas durante el combate, es probable que los Chequeos sean Desafiantes (+0) como mínimo."
+  },
+  {
+    "name": "Seguir rastros",
+    "att": "Ini",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Tu capacidad de seguir sutiles huellas dejadas por los demás. Seguir rastros se utiliza para seguir pistas difíciles a través de las tierras salvajes. Esta habilidad no se utiliza para seguir un juego de huellas de pisadas en la nieve (eso lo cubre un sencillo Chequeo de Percepción); Seguir rastros implica un conocimiento y una consciencia más profundos, utilizados para reconocer los sutiles signos del paso de una presa. También puedes intentar ocultar tu rastro, en cuyo caso utiliza tu Habilidad de Seguir rastros para Enfrentarla al Chequeo de Seguir rastros de tu perseguidor.\nA menudo hace falta un Chequeo Prolongado de Seguir rastros para conseguir tu objetivo, con la Dificultad modificada por lo recientes que son las huellas y lo adecuado que es el terreno: la tierra húmeda delata el paso mejor que un suelo de piedra. El DJ también puede utilizar las reglas de Perseguir para determinar si consigues seguir el rastro de una presa."
+  },
+  {
+    "name": "Sobornar",
+    "att": "Em",
+    "group": "básica",
+    "grouped": false,
+    "text": "Tu capacidad para juzgar la probabilidad de que una persona acepte un soborno y cuál es la mejor manera de ofrecerlo para que lo acepte.\nUn Chequeo de Sobornar con éxito te informa de si un objetivo puede ser sobornado. Si es así, tu DJ determinará en secreto el precio de su cooperación utilizando la capacidad de Ganar dinero del objetivo, incrementando la cantidad según su honradez habitual y el riesgo que corre al aceptar el soborno. Después tienes que intentar adivinar la cantidad objetivo y el DJ te dirá si el precio es mayor, menor o igual. Cada NE de tu Chequeo inicial de Sobornar te concede una oportunidad de adivinar. Al final de este proceso, determinas cuánto dinero tienes que ofrecer, basándote en lo que has averiguado.\nEn combate, puedes usar el Soborno como se indica más arriba para intentar que se detenga la pelea, pero trata el Chequeo como Difícil (-20), debido a la tensión del momento. Si tu objetivo no es susceptible, si no tienes para el soborno, o si tus enemigos no hablan tu idioma, tus patéticos intentos de sobornarlos están condenados al fracaso. Por supuesto, si tienen superioridad numérica, ¿qué les impide quedarse con todo tu dinero?"
+  },
+  {
+    "name": "Supervivencia",
+    "att": "I",
+    "group": "básica",
+    "grouped": false,
+    "text": "La Habilidad de Supervivencia se utiliza para sobrevivir en las tierras salvajes, incluyendo saber pescar, cazar, forrajear, encender fuego y construir refugios. Los viajeros expertos tienen la habilidad de interpretar los preludios de las inclemencias del tiempo, así como de encontrar el rastro de diversas bestias peligrosas. Al acampar, haz un Chequeo de Supervivencia modificado por la dureza de las condiciones: por ejemplo, un Chequeo es Desafiante (+0) si llueve, y Difícil (-20) en mitad de una tormenta. Un Chequeo con éxito indica que puedes conseguir sustento y abrigo para pasar la noche. Cada NE te permite conseguirlo para otro personaje más. Si el Chequeo falla, tienes que llevar a cabo un Chequeo Desafiante (+0) de Aguante o sufrir 1 Estado de Fatigado . Si sufres un Fracaso asombroso, algo malo ha sucedido (a determinar por el DJ); ¿quizá tu campamento haya sido atacado por la noche?\nCuando peleas en las tierras salvajes, puedes llevar a cabo un Chequeo de Supervivencia para obtener +1 Ventaja, de la misma forma que con la Intuición, hasta una Ventaja máxima igual a tu Bonificador por Inteligencia, indicando que descubres un terreno traicionero o ventajoso que podéis usar en vuestro beneficio."
+  },
+  {
+    "name": "Tasar",
+    "att": "I",
+    "group": "avanzada",
+    "grouped": false,
+    "text": "Te permite determinar el valor de artefactos raros, mercancías poco usuales y obras de arte. Se supone que todo el mundo conoce el valor relativo de las mercancías comunes, pero un uso con éxito de Tasar te permite identificar el valor de los objetos curiosos y únicos. Un Chequeo con éxito de Tasar también te puede alertar de si la mercancía (o la moneda) que estás estudiando es falsa; este Chequeo por lo general será Enfrentado al NE del falsificador en su Chequeo de Arte o de Oficio. Tu DJ puede aplicar modificadores basados en lo raro u oscuro que el objeto es, o en la experiencia o trasfondo particulares de tu personaje."
+  },
+  {
+    "name": "Tocar (Especialidad)",
+    "att": "Des",
+    "group": "avanzada",
+    "grouped": true,
+    "text": "Tu capacidad para interpretar música con un instrumento, es de esperar que lo suficientemente bien como para impresionar a otros. Un Chequeo con éxito de Tocar te permite entretener a los que están lo suficientemente cerca como para verte y oírte; el NE indica la calidad de la obra interpretada.\nEspecialidades: clavicémbalo, cuerno, gaita, laúd, violín..."
+  }
+]

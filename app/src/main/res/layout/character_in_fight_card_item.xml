@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/character_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/card_background_list"
+    android:maxWidth="100dp">
+
+    <TextView
+        android:id="@+id/character_list_activity_card_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Test 1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/character_list_activity_card_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/character_list_activity_card_title"
+        android:layout_marginTop="10dp"
+        android:minWidth="300dp">
+
+        <LinearLayout
+            android:id="@+id/layout_for_description_and_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/character_image"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:adjustViewBounds="true" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/abilities_tv"
+                        style="@style/card_list_text"
+                        android:layout_width="wrap_content"
+                        android:textSize="16sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/button_skills"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/talents_tv"
+                        style="@style/card_list_text"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ln_skills"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/button_talents"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/ln_skills"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_toEndOf="@id/abilities_tv"
+                        android:minHeight="50dp"
+                        android:minWidth="50dp"
+                        android:maxWidth="200dp"
+                        android:maxHeight="200dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/skills_ln1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/skills_ln2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/talents"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_toEndOf="@id/talents_tv"
+                        android:minHeight="50dp"
+                        android:minWidth="50dp"
+                        android:layout_below="@id/ln_skills"
+                        android:maxWidth="200dp"
+                        android:maxHeight="200dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/talents_ln1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/talents_ln2"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_for_description_and_image"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/table_border"
+            android:maxWidth="100dp"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/m"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/weapon_skill_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/ballistic_skill_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/strength_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/toughness_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/initiative_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/agility_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/dexterity_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/intelligence_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/willpower_short_string"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/fellowship"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/w"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/movement"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ws"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/bs"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/s"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/t"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/i"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ag"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/dex"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/intelligence"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/wp"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fel"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/w"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/movement_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ws_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/bs_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/s_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/t_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/i_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ag_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dex_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/intelligence_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/wp_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fel_add"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/w_rest"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/movement_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ws_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/bs_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/s_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/t_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/i_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ag_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/dex_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/intelligence_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/wp_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fel_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/w_total"
+                    android:layout_width="0dp"
+                    android:background="@drawable/table_border"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

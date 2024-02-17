@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/character_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/card_background_list">
+
+        <LinearLayout
+            android:id="@+id/character_list_activity_card_title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/character_list_activity_card_title"
+                style="@style/card_list"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="80"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Patata" />
+
+            <ImageView
+                android:id="@+id/character_list_activity_card_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:src="@drawable/ic_baseline_edit_24"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/character_list_activity_card_delete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:src="@drawable/ic_baseline_delete_24"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:id="@+id/character_list_activity_card_arrow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="6"
+                android:src="@drawable/ic_baseline_expand_more"
+                app:tint="@color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/character_list_activity_card_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/character_list_activity_card_title_container"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/layout_for_description_and_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <ImageView
+                    android:id="@+id/character_image"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="40"
+                    android:adjustViewBounds="true" />
+
+                <TextView
+                    android:id="@+id/character_history_tv"
+                    style="@style/card_list_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="60"
+                    android:justificationMode="inter_word"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/table_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_for_description_and_image"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/table_border"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/m"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/weapon_skill_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/ballistic_skill_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/strength_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/toughness_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/initiative_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/agility_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/dexterity_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/intelligence_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/willpower_short_string"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/fellowship"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="@string/w"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/movement"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/ws"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/bs"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/s"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/i"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/ag"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/dex"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/intelligence"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/wp"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/fel"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/w"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/characteristics_second_row"
+                    android:visibility="gone">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/movement_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ws_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/bs_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/s_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/t_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/i_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ag_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/dex_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/intelligence_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/wp_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fel_add"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/w_rest"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/characteristics_third_row"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/movement_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/ws_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/bs_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/s_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/t_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/i_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/ag_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/dex_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/intelligence_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/wp_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/fel_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/w_total"
+                        android:layout_width="0dp"
+                        android:background="@drawable/table_border"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/abilities_tv"
+                style="@style/card_list_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/table_layout"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/button_skills"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/talents_tv"
+                style="@style/card_list_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skills_list_activity_card_list"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/button_talents"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skills_list_activity_card_list"
+                style="@style/card_list_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/table_layout"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="13dp"
+                android:layout_toEndOf="@id/abilities_tv"
+                android:text="+1" />
+
+            <TextView
+                android:id="@+id/talents_list_activity_card_list"
+                style="@style/card_list_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skills_list_activity_card_list"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/talents_tv"
+                android:text="+1" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

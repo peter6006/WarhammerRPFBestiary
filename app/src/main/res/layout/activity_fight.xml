@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".activities.Fight">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="49">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_enemy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:tint="@color/grey_light"
+            app:backgroundTint="@color/grey_light"
+            app:maxImageSize="34dp"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/enemies_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enemies"
+            android:textSize="18sp" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/enemies_tv">
+
+            <LinearLayout
+                android:id="@+id/enemy_list_scroll"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"/>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="2dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="50">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_ally_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:tint="@color/grey_light"
+            app:backgroundTint="@color/grey_light"
+            app:maxImageSize="34dp"
+            app:srcCompat="@drawable/ic_baseline_add_24"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/allies_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/allies"
+            android:textSize="18sp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_toStartOf="@+id/add_ally_button"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-4855450974262250/7744024731">
+            <!--     Real ID: ca-app-pub-4855450974262250/7744024731       -->
+            <!--     Test ID: ca-app-pub-3940256099942544/6300978111       -->
+        </com.google.android.gms.ads.AdView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontal_allies"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/allies_tv">
+
+            <LinearLayout
+                android:id="@+id/ally_list_scroll"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="match_parent"/>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+</LinearLayout>

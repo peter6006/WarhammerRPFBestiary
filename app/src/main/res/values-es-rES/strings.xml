@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WarhammerRPF Helper</string>
+    <string name="button_bestiary_string">Bestiario</string>
+    <string name="button_character_string">Personaje</string>
+    <string name="button_custom_string">Custom</string>
+    <string name="button_abilities_and_talents_string"><![CDATA[Habilidades & Talentos]]></string>
+    <string name="button_fight_string">Crear una batalla</string>
+    <string name="search_by_name_string">Buscar por nombre</string>
+    <string name="weapon_skill_short_string">HA</string>
+    <string name="ballistic_skill_short_string">HP</string>
+    <string name="strength_short_string">F</string>
+    <string name="toughness_short_string">R</string>
+    <string name="initiative_short_string">Ini</string>
+    <string name="agility_short_string">Ag</string>
+    <string name="dexterity_short_string">Des</string>
+    <string name="intelligence_short_string">I</string>
+    <string name="willpower_short_string">V</string>
+    <string name="fellowship">Em</string>
+    <string name="button_skills">Habilidades</string>
+    <string name="button_talents">Talentos</string>
+    <string name="max">Máx:</string>
+    <string name="tests">Chequeos:</string>
+    <string name="bestiary">Bestiario</string>
+    <string name="traits">Rasgos</string>
+    <string name="mandatory_traits">Rasgos:</string>
+    <string name="optional_traits">Opcional</string>
+    <string name="m">M</string>
+    <string name="w">H</string>
+    <string name="character_name">Nombre del personaje</string>
+    <string name="character_description_history">Descripción/Historia del personaje</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save_character">Guardar personaje</string>
+    <string name="load_character_image">Cargar imagen de personaje</string>
+    <string name="enemies">Enemigos</string>
+    <string name="allies">Aliados</string>
+    <string name="beast_name">Nombre de la bestia</string>
+    <string name="beast_description_history">Descripción/Historia de la bestia</string>
+    <string name="mandatory_traits2">Rasgos Obligatorios</string>
+    <string name="optional_traits2">Rasgos Opcionales</string>
+    <string name="load_beast_image">Cargar imagen de bestia</string>
+    <string name="save_beast">Guardar Beastia</string>
+    <string name="save_trait">Guardar Rasgo</string>
+    <string name="trait_name">Nombre del Rasgo</string>
+    <string name="trait_description">Descripción del Rasgo</string>
+    <string name="skill_name">Nombre de la habilidad</string>
+    <string name="skill_description">Descipción de la habilidad</string>
+    <string name="save_skill">Guardar habilidad</string>
+    <string name="advanced">¿Avanzada?</string>
+    <string name="grouped">¿de Grupo?</string>
+    <string name="talent_name">Nombre del Talento</string>
+    <string name="talent_description">Descripción del Talento</string>
+    <string name="save_talent">Guardar Talento</string>
+    <string name="max_value">Valor máximo</string>
+    <string name="test">Chequeo</string>
+    <string name="delete_a_skill">Borrar una habilidad</string>
+    <string name="delete_a_skill_msg">¿Estás seguro de eliminar esta habilidad? No hay forma de recuperar una habilidad eliminada.</string>
+    <string name="delete_a_skill_cancel">Cancelar</string>
+    <string name="delete_a_talent_msg">¿Estás seguro de eliminar este Talento? No hay forma de recuperar un Talento eliminado.</string>
+    <string name="delete_a_skill_ok">Sí, lo sé, bórralo.</string>
+    <string name="delete_a_talent">Eliminar un talento</string>
+    <string name="delete_a_talent_cancel">Cancelar</string>
+    <string name="delete_a_beast_cancel">Cancelar</string>
+    <string name="delete_a_trait_cancel">Cancelar</string>
+    <string name="delete_a_character_cancel">Cancelar</string>
+    <string name="mandatory_trait_data_cancel">Cancelar</string>
+    <string name="optional_trait_data_cancel">Cancelar</string>
+    <string name="skill_data_cancel">Cancelar</string>
+    <string name="talent_data_cancel">Cancelar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="delete_a_talent_ok">Sí, lo sé, bórralo.</string>
+    <string name="delete_a_beast_ok">Sí, lo sé, bórralo.</string>
+    <string name="delete_a_trait_ok">Sí, lo sé, bórralo.</string>
+    <string name="delete_a_character_ok">Sí, lo sé, bórralo.</string>
+    <string name="duplicate_skill_ok">OK</string>
+    <string name="duplicate_talent_ok">OK</string>
+    <string name="duplicate_beast_ok">OK</string>
+    <string name="duplicate_character_ok">OK</string>
+    <string name="mandatory_trait_data_ok">OK</string>
+    <string name="optional_trait_data_ok">OK</string>
+    <string name="skill_data_ok">OK</string>
+    <string name="talent_data_ok">OK</string>
+    <string name="ok_button">OK</string>
+    <string name="wrong_image_selected_ok">OK</string>
+    <string name="duplicate_skill">Habilidad duplicada</string>
+    <string name="duplicate_skill_msg">Ya existe una habilidad con ese nombre, por favor cámbiala o elimina la anterior.</string>
+    <string name="duplicate_talent">Talento duplicado</string>
+    <string name="duplicate_talent_msg">Ya existe un Talento con ese nombre, por favor cámbialo o elimina el anterior.</string>
+    <string name="delete_a_beast">Eliminar una bestia</string>
+    <string name="delete_a_beast_msg">¿Estás seguro de eliminar esta Bestia? No hay forma de recuperar una Bestia eliminada.</string>
+    <string name="duplicate_beast">Bestia duplicada</string>
+    <string name="duplicate_beast_msg">Ya existe una Bestia con ese nombre, por favor cámbialo o elimina el anterior.</string>
+    <string name="delete_a_trait">Eliminar un rasgo</string>
+    <string name="delete_a_trait_msg">¿Estás seguro de eliminar este rasgo? No hay forma de recuperar un rasgo eliminado.</string>
+    <string name="delete_a_character">Borrar un personaje</string>
+    <string name="delete_a_character_msg">¿Estás seguro de eliminar este personaje? No hay forma de recuperar un personaje eliminado.</string>
+    <string name="duplicate_character">Personaje duplicado</string>
+    <string name="duplicate_character_msg">Ya existe un Personaje con ese nombre, por favor cámbialo o elimina el anterior.</string>
+    <string name="select_mandatory_traits">Selecciona Rasgos Obligatorios</string>
+    <string name="mandatory_trait_data">Escribe su valor</string>
+    <string name="select_optional_traits">Selecciona Rasgos Opcionales</string>
+    <string name="optional_trait_data">Escribe su valor</string>
+    <string name="select_skills">Selecciona las Habilidades</string>
+    <string name="skill_data">Escribe su especialización</string>
+    <string name="select_talents">Selecciona los Talentos</string>
+    <string name="talent_data">Escribe su especialización</string>
+    <string name="clear_all_button">Limpiar</string>
+    <string name="select_an_image">Selecciona una imagen</string>
+    <string name="wrong_image_selected">Imagen incorrecta seleccionada</string>
+    <string name="wrong_image_selected_msg">Seleccionó una imagen incorrecta o la aplicación no pudo recuperar su información. Por favor, intente seleccionar la imagen usando otra aplicación.</string>
+    <string name="select_enemies">Seleccionar Enemigos</string>
+    <string name="select_characters">Seleccionar Personajes</string>
+    <string name="skill_name_completion">Habilidad:</string>
+    <string name="talent_name_completion">Talento:</string>
+    <string name="trait_name_completion">Rasgo:</string>
+
+    <string name="ad_video_message_title">Anuncio</string>
+    <string name="ad_video_message_message">¿Quieres ver un video para ayudar al desarrollador? Esto es completamente opcional y además no tendrá ningún efecto en la app.\nPuedes incluso bloquear este mensaje durante 12 horas.\n\n¡Tú decides! &#128522;</string>
+    <string name="ad_video_message_button_ok">¡Sí!</string>
+    <string name="ad_video_message_button_cancel">No</string>
+    <string name="ad_video_message_button_no_more">No y bloquear</string>
+    <string name="ad_video_message_thank_you">¡Gracias!</string>
+
+
+    <string-array name="attributes">
+        <item>Habilidad de Armas (HA)</item>
+        <item>Habilidad de Proyectiles (HP)</item>
+        <item>Fuerza (F)</item>
+        <item>Resistencia (R)</item>
+        <item>Iniciativa (Ini)</item>
+        <item>Agilidad (A)</item>
+        <item>Destreza (De)</item>
+        <item>Inteligencia (I)</item>
+        <item>Voluntad (V)</item>
+        <item>Empatía (Em)</item>
+    </string-array>
+</resources>

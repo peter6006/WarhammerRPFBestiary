@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_list"
+    android:padding="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditTextBeastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/beast_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/table_border"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditTextBeastName">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/m"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/weapon_skill_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/ballistic_skill_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/strength_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/toughness_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/initiative_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/agility_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/dexterity_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/intelligence_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/willpower_short_string"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/fellowship"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/w"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/movement"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:nextFocusDown="@+id/ws"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ws"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:nextFocusDown="@+id/bs"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/bs"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:nextFocusDown="@+id/s"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/s"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:nextFocusDown="@+id/t"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/t"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/i"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/i"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/ag"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ag"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/dex"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dex"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/intelligence"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/intelligence"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/wp"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/wp"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:nextFocusDown="@+id/fel"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fel"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:nextFocusDown="@+id/w"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/w"
+                android:layout_width="0dp"
+                android:background="@drawable/table_border"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="3dip"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/mandatory_traits_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:drawablePadding="16dp"
+        android:padding="12dp"
+        android:text="@string/mandatory_traits2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/table_layout" />
+
+    <TextView
+        android:id="@+id/optional_traits_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:drawablePadding="16dp"
+        android:padding="12dp"
+        android:text="@string/optional_traits2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mandatory_traits_selector" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/load_beast_image"
+        style="@style/SelectionButton"
+        android:layout_width="wrap_content"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/load_beast_image"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optional_traits_selector" />
+
+    <ImageView
+        android:id="@+id/beast_image_aux"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toEndOf="@+id/load_beast_image"
+        app:layout_constraintTop_toBottomOf="@+id/optional_traits_selector" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cancel"
+        style="@style/SelectionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_save_beast"
+        app:layout_constraintTop_toBottomOf="@+id/load_beast_image" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_save_beast"
+        style="@style/SelectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:layout_margin="15dp"
+        android:text="@string/save_beast"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load_beast_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

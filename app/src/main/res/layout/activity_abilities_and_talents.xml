@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abilities_and_talents_ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.AbilitiesAndTalents">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/search_by_name_string"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_ws"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/weapon_skill_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_bs"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ballistic_skill_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_s"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/strength_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_t"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toughness_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_i"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/initiative_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_ag"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agility_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_dex"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dexterity_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_int"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/intelligence_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_wp"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/willpower_short_string"
+            android:textAlignment="center" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_fel"
+            style="@style/FilterButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fellowship"
+            android:textAlignment="center" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chip_group" />
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        app:layout_constraintBottom_toTopOf="@+id/adView">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_skills"
+            style="@style/SelectionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:text="@string/button_skills" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_talents"
+            style="@style/SelectionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:text="@string/button_talents" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/skill_list_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/separator2"
+        app:layout_constraintTop_toBottomOf="@+id/separator1">
+
+        <LinearLayout
+            android:id="@+id/skill_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/buttons_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skill_list_rl" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/create_fi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:tint="@color/grey_light"
+        app:backgroundTint="@color/grey_light"
+        app:layout_constraintBottom_toTopOf="@+id/buttons_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="34dp"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        app:tint="@color/white" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-4855450974262250/2687757726"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <!--     Real ID: ca-app-pub-4855450974262250/2687757726       -->
+        <!--     Test ID: ca-app-pub-3940256099942544/6300978111       -->
+    </com.google.android.gms.ads.AdView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey_light_tr"
+        android:indeterminateTint="@color/grey_light"
+        android:padding="100dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

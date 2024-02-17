@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">WarhammerRPF Helper</string>
+    <string name="button_bestiary_string">Bestiary</string>
+    <string name="button_character_string">Character</string>
+    <string name="button_custom_string">Custom</string>
+    <string name="button_abilities_and_talents_string"><![CDATA[Abilities & Talents]]></string>
+    <string name="button_fight_string">Create a fight</string>
+    <string name="search_by_name_string">Search by name</string>
+    <string name="weapon_skill_short_string">WS</string>
+    <string name="ballistic_skill_short_string">BS</string>
+    <string name="strength_short_string">S</string>
+    <string name="toughness_short_string">T</string>
+    <string name="initiative_short_string">I</string>
+    <string name="agility_short_string">Ag</string>
+    <string name="dexterity_short_string">Dex</string>
+    <string name="intelligence_short_string">Int</string>
+    <string name="willpower_short_string">WP</string>
+    <string name="fellowship">Fel</string>
+    <string name="button_skills">Skills</string>
+    <string name="button_talents">Talents</string>
+    <string name="max">Max:</string>
+    <string name="tests">Tests:</string>
+    <string name="bestiary">Bestiary</string>
+    <string name="traits">Traits</string>
+    <string name="mandatory_traits">Traits: </string>
+    <string name="optional_traits" >Optional: </string>
+    <string name="m">M</string>
+    <string name="w">W</string>
+    <string name="character_name">Character name</string>
+    <string name="character_description_history">Character Description/History</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_character">Save character</string>
+    <string name="load_character_image">Load Character Image</string>
+    <string name="enemies">Enemies</string>
+    <string name="allies">Allies</string>
+    <string name="beast_name">Beast name</string>
+    <string name="beast_description_history">Beast Description/History</string>
+    <string name="mandatory_traits2">Mandatory Traits</string>
+    <string name="optional_traits2">Optional Traits</string>
+    <string name="load_beast_image">Load Beast image</string>
+    <string name="save_beast">Save Beast</string>
+    <string name="save_trait">Save Trait</string>
+    <string name="trait_name">Trait Name</string>
+    <string name="trait_description">Trait description</string>
+    <string name="skill_name">Skill name</string>
+    <string name="skill_description">Skill description</string>
+    <string name="save_skill">Save Skill</string>
+    <string name="advanced">Advanced?</string>
+    <string name="grouped">Grouped?</string>
+    <string name="talent_name">Talent name</string>
+    <string name="talent_description">Talent description</string>
+    <string name="save_talent">Save Talent</string>
+    <string name="max_value">Max value</string>
+    <string name="test">Test</string>
+
+
+    <string name="delete_a_skill">Deleting a Skill</string>
+    <string name="delete_a_skill_msg">Are you sure about deleting this Skill? There is no way to recover a deleted Skill.</string>
+    <string name="delete_a_skill_cancel">Cancel</string>
+    <string name="delete_a_skill_ok">Yes, i know, delete it</string>
+
+    <string name="delete_a_talent">Deleting a Talent</string>
+    <string name="delete_a_talent_msg">Are you sure about deleting this Talent? There is no way to recover a deleted Talent.</string>
+    <string name="delete_a_talent_cancel">Cancel</string>
+    <string name="delete_a_talent_ok">Yes, i know, delete it</string>
+
+    <string name="duplicate_skill">Duplicate skill</string>
+    <string name="duplicate_skill_msg">There is already a Skill with that name, please change it or remove the previous one.</string>
+    <string name="duplicate_skill_ok">OK</string>
+
+    <string name="duplicate_talent">Duplicate talent</string>
+    <string name="duplicate_talent_msg">There is already a Talent with that name, please change it or remove the previous one.</string>
+    <string name="duplicate_talent_ok">OK</string>
+
+    <string name="delete_a_beast">Deleting a beast</string>
+    <string name="delete_a_beast_msg">Are you sure about deleting this Beast? There is no way to recover a deleted Beast.</string>
+    <string name="delete_a_beast_cancel">Cancel</string>
+    <string name="delete_a_beast_ok">Yes, i know, delete it</string>
+
+    <string name="duplicate_beast">Duplicate beast</string>
+    <string name="duplicate_beast_msg">There is already a Beast with that name, please change it or remove the previous one.</string>
+    <string name="duplicate_beast_ok">OK</string>
+
+    <string name="delete_a_trait">Deleting a trait</string>
+    <string name="delete_a_trait_msg">Are you sure about deleting this Trait? There is no way to recover a deleted Trait.</string>
+    <string name="delete_a_trait_cancel">Cancel</string>
+    <string name="delete_a_trait_ok">Yes, i know, delete it</string>
+
+    <string name="delete_a_character">Deleting a character</string>
+    <string name="delete_a_character_msg">Are you sure about deleting this Character? There is no way to recover a deleted Character.</string>
+    <string name="delete_a_character_cancel">Cancel</string>
+    <string name="delete_a_character_ok">Yes, i know, delete it</string>
+
+    <string name="duplicate_character">Duplicate character</string>
+    <string name="duplicate_character_msg">There is already a Character with that name, please change it or remove the previous one.</string>
+    <string name="duplicate_character_ok">OK</string>
+
+    <string name="select_mandatory_traits">Select Mandatory Traits</string>
+    <string name="mandatory_trait_data">Write its value</string>
+    <string name="mandatory_trait_data_ok">OK</string>
+    <string name="mandatory_trait_data_cancel">Cancel</string>
+
+    <string name="select_optional_traits">Select Optional Traits</string>
+    <string name="optional_trait_data">Write its value</string>
+    <string name="optional_trait_data_ok">OK</string>
+    <string name="optional_trait_data_cancel">Cancel</string>
+
+    <string name="select_skills">Select Skills</string>
+    <string name="skill_data">Write its specialisation</string>
+    <string name="skill_data_ok">OK</string>
+    <string name="skill_data_cancel">Cancel</string>
+
+    <string name="select_talents">Select Talents</string>
+    <string name="talent_data">Write its specialisation</string>
+    <string name="talent_data_ok">OK</string>
+    <string name="talent_data_cancel">Cancel</string>
+
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="clear_all_button">Clear All</string>
+
+    <string name="select_an_image">Select an image</string>
+    <string name="wrong_image_selected">Wrong image selected</string>
+    <string name="wrong_image_selected_msg">You selected a wrong image or the application could not retrieve its information. Please, try selecting the image using another application.</string>
+    <string name="wrong_image_selected_ok">OK</string>
+
+    <string name="select_enemies">Select Enemies</string>
+    <string name="select_characters">Select Characters</string>
+
+    <string name="skill_name_completion">Skill:</string>
+    <string name="talent_name_completion">Talent:</string>
+    <string name="trait_name_completion">Trait:</string>
+
+    <string name="ad_video_message_title">Video Ad</string>
+    <string name="ad_video_message_message">Do you want to support the developer by watching a video? This is completely optional, it will no have any impact on the app.\nYou can even block this message for 12 hours.\n\nIt is up to you! &#128522;</string>
+    <string name="ad_video_message_button_ok">Yes!</string>
+    <string name="ad_video_message_button_cancel">No</string>
+    <string name="ad_video_message_button_no_more">No and block</string>
+    <string name="ad_video_message_thank_you">Thank you!</string>
+
+
+    <string-array name="attributes">
+        <item>Weapon Skill (WS)</item>
+        <item>Ballistic Skill (BS)</item>
+        <item>Strength (S)</item>
+        <item>Toughness (T)</item>
+        <item>Initiative (I)</item>
+        <item>Agility (Ag)</item>
+        <item>Dexterity (Dex)</item>
+        <item>Intelligence (Int)</item>
+        <item>Willpower (WP)</item>
+        <item>Fellowship (Fel)</item>
+    </string-array>
+</resources>

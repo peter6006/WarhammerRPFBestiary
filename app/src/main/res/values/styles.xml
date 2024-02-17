@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FilterButton" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="colorControlActivated">@color/purple_500</item>
+        <item name="chipSurfaceColor">@color/grey_light</item>
+    </style>
+
+    <style name="SelectionButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:backgroundTint">@color/button_no_pressed_tint</item>
+    </style>
+
+    <style name="card_list" parent="Widget.AppCompat.TextView">
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:autoSizeMinTextSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:autoSizeMaxTextSize">28sp</item>
+    </style>
+
+    <style name="card_list_text" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/grey_light</item>
+        <item name="color">@color/white</item>
+    </style>
+</resources>

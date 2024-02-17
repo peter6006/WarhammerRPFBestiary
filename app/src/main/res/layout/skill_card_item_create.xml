@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background_list"
+    android:padding="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text_input_edit_text_skill_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/skill_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textCapSentences"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text_input_edit_text_skill_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skill_description"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@color/white"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="1"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_edit_text_skill_name" />
+
+    <Spinner
+        android:id="@+id/attribute_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_edit_text_skill_description" />
+
+    <CheckBox
+        android:id="@+id/advanced_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attribute_spinner" />
+
+    <CheckBox
+        android:id="@+id/grouped_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grouped"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanced_cb" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cancel"
+        style="@style/SelectionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grouped_cb" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_save_skill"
+        style="@style/SelectionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/save_skill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/grouped_cb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
