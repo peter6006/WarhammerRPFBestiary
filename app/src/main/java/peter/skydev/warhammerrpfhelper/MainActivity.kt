@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
@@ -32,11 +33,15 @@ class MainActivity : AppCompatActivity(), OnUserEarnedRewardListener {
         supportActionBar?.hide()
         sharedPreferences = this.getSharedPreferences(sharedPrefFile, Context.MODE_PRIVATE)
 
-        MobileAds.initialize(this) { initializationStatus ->
-            val timeSaved = sharedPreferences.getLong("ad_time", 0L)
-            val actualTime = System.currentTimeMillis()
-            if (actualTime - timeSaved > 12 * 60 * 60 * 1000) {
-                loadAd()
+        val time = System.currentTimeMillis()
+
+        if (time > 1722474000000) {
+            MobileAds.initialize(this) { initializationStatus ->
+                val timeSaved = sharedPreferences.getLong("ad_time", 0L)
+                val actualTime = System.currentTimeMillis()
+                if (actualTime - timeSaved > 12 * 60 * 60 * 1000) {
+                    loadAd()
+                }
             }
         }
 
